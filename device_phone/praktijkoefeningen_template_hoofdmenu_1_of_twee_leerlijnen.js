@@ -47,7 +47,9 @@ PhoneResponsive={"785":{
 ,
 "image45577":{"x":127,"y":175,"w":13,"h":13,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
 ,
-"text18313":{"x":14,"y":194,"w":125,"h":67,"txtscale":100,"bOffBottom":0}
+"text18313":{"x":28,"y":194,"w":116,"h":67,"txtscale":100,"bOffBottom":0}
+,
+"shape58598":{"x":13,"y":111,"w":137.000000,"h":126.000000,"stylemods":[{"sel":"div.shape58598Text","decl":" { position:fixed; left:2px; top:2px; width:132px; height:121px;}"},{"sel":"span.shape58598Text","decl":" { display:table-cell; position:relative; width:132px; height:121px; vertical-align:middle; text-align:center; line-height:8px; font-size:8px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAB+CAYAAAAQszJoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABaSURBVHhe7cGBAAAAAMOg+VPf4ARVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEcNDkUAARQThfoAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 136.000000 0.000000 L 0.000000 0.000000 L 0.000000 125.000000 L 136.000000 125.000000 L 136.000000 0.000000 z"}
 ,
 "image22873":{"x":170,"y":113,"w":14,"h":11,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
@@ -61,6 +63,8 @@ PhoneResponsive={"785":{
 ,
 "text20458":{"x":171,"y":195,"w":125,"h":67,"txtscale":100,"bOffBottom":0}
 ,
+"shape58646":{"x":170,"y":111,"w":137.000000,"h":126.000000,"stylemods":[{"sel":"div.shape58646Text","decl":" { position:fixed; left:2px; top:2px; width:132px; height:121px;}"},{"sel":"span.shape58646Text","decl":" { display:table-cell; position:relative; width:132px; height:121px; vertical-align:middle; text-align:center; line-height:8px; font-size:8px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAB+CAYAAAAQszJoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABaSURBVHhe7cGBAAAAAMOg+VPf4ARVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEcNDkUAARQThfoAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 136.000000 0.000000 L 0.000000 0.000000 L 0.000000 125.000000 L 136.000000 125.000000 L 136.000000 0.000000 z"}
+,
 "image22807":{"x":326,"y":113,"w":14,"h":11,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
 "image20662":{"x":327,"y":111,"w":134,"h":70,"bOffBottom":0,"i":"images/1.3_cover.png"}
@@ -72,6 +76,8 @@ PhoneResponsive={"785":{
 "image50973":{"x":438,"y":175,"w":13,"h":13,"bOffBottom":0,"i":"images/leerlijn_systeem.png"}
 ,
 "image51131":{"x":422,"y":175,"w":13,"h":13,"bOffBottom":0,"i":"images/leerlijn_product.png"}
+,
+"shape58685":{"x":326,"y":111,"w":137.000000,"h":126.000000,"stylemods":[{"sel":"div.shape58685Text","decl":" { position:fixed; left:2px; top:2px; width:132px; height:121px;}"},{"sel":"span.shape58685Text","decl":" { display:table-cell; position:relative; width:132px; height:121px; vertical-align:middle; text-align:center; line-height:8px; font-size:8px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAB+CAYAAAAQszJoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABaSURBVHhe7cGBAAAAAMOg+VPf4ARVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEcNDkUAARQThfoAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 136.000000 0.000000 L 0.000000 0.000000 L 0.000000 125.000000 L 136.000000 125.000000 L 136.000000 0.000000 z"}
 ,
 "image22533":{"x":483,"y":113,"w":14,"h":11,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
@@ -85,6 +91,10 @@ PhoneResponsive={"785":{
 ,
 "image51326":{"x":595,"y":174,"w":13,"h":13,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
 ,
+"shape58722":{"x":482,"y":111,"w":137.000000,"h":126.000000,"stylemods":[{"sel":"div.shape58722Text","decl":" { position:fixed; left:2px; top:2px; width:132px; height:121px;}"},{"sel":"span.shape58722Text","decl":" { display:table-cell; position:relative; width:132px; height:121px; vertical-align:middle; text-align:center; line-height:8px; font-size:8px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAB+CAYAAAAQszJoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABaSURBVHhe7cGBAAAAAMOg+VPf4ARVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEcNDkUAARQThfoAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 136.000000 0.000000 L 0.000000 0.000000 L 0.000000 125.000000 L 136.000000 125.000000 L 136.000000 0.000000 z"}
+,
+"shape58762":{"x":638,"y":111,"w":137.000000,"h":126.000000,"stylemods":[{"sel":"div.shape58762Text","decl":" { position:fixed; left:2px; top:2px; width:132px; height:121px;}"},{"sel":"span.shape58762Text","decl":" { display:table-cell; position:relative; width:132px; height:121px; vertical-align:middle; text-align:center; line-height:8px; font-size:8px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAB+CAYAAAAQszJoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABaSURBVHhe7cGBAAAAAMOg+VPf4ARVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEcNDkUAARQThfoAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 136.000000 0.000000 L 0.000000 0.000000 L 0.000000 125.000000 L 136.000000 125.000000 L 136.000000 0.000000 z"}
+,
 "image22743":{"x":639,"y":113,"w":14,"h":11,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
 "image20782":{"x":640,"y":111,"w":134,"h":70,"bOffBottom":0,"i":"images/1.5_cover.png"}
@@ -96,6 +106,8 @@ PhoneResponsive={"785":{
 "image52007":{"x":751,"y":175,"w":13,"h":13,"bOffBottom":0,"i":"images/leerlijn_regels.png"}
 ,
 "image52025":{"x":736,"y":175,"w":13,"h":13,"bOffBottom":0,"i":"images/leerlijn_systeem.png"}
+,
+"shape58789":{"x":13,"y":249,"w":137.000000,"h":126.000000,"stylemods":[{"sel":"div.shape58789Text","decl":" { position:fixed; left:2px; top:2px; width:132px; height:121px;}"},{"sel":"span.shape58789Text","decl":" { display:table-cell; position:relative; width:132px; height:121px; vertical-align:middle; text-align:center; line-height:8px; font-size:8px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAB+CAYAAAAQszJoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABaSURBVHhe7cGBAAAAAMOg+VPf4ARVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEcNDkUAARQThfoAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 136.000000 0.000000 L 0.000000 0.000000 L 0.000000 125.000000 L 136.000000 125.000000 L 136.000000 0.000000 z"}
 ,
 "image20433":{"x":14,"y":252,"w":14,"h":11,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
@@ -109,6 +121,8 @@ PhoneResponsive={"785":{
 ,
 "text21922":{"x":14,"y":332,"w":109,"h":67,"txtscale":100,"bOffBottom":0}
 ,
+"shape58829":{"x":170,"y":249,"w":137.000000,"h":126.000000,"stylemods":[{"sel":"div.shape58829Text","decl":" { position:fixed; left:2px; top:2px; width:132px; height:121px;}"},{"sel":"span.shape58829Text","decl":" { display:table-cell; position:relative; width:132px; height:121px; vertical-align:middle; text-align:center; line-height:8px; font-size:8px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAB+CAYAAAAQszJoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABaSURBVHhe7cGBAAAAAMOg+VPf4ARVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEcNDkUAARQThfoAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 136.000000 0.000000 L 0.000000 0.000000 L 0.000000 125.000000 L 136.000000 125.000000 L 136.000000 0.000000 z"}
+,
 "image22839":{"x":170,"y":252,"w":14,"h":11,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
 "image20795":{"x":171,"y":249,"w":134,"h":70,"bOffBottom":0,"i":"images/1.7_cover.png"}
@@ -120,6 +134,8 @@ PhoneResponsive={"785":{
 "image51440":{"x":284,"y":312,"w":13,"h":13,"bOffBottom":0,"i":"images/leerlijn_product.png"}
 ,
 "image51438":{"x":269,"y":312,"w":13,"h":13,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
+,
+"shape58871":{"x":326,"y":249,"w":137.000000,"h":126.000000,"stylemods":[{"sel":"div.shape58871Text","decl":" { position:fixed; left:2px; top:2px; width:132px; height:121px;}"},{"sel":"span.shape58871Text","decl":" { display:table-cell; position:relative; width:132px; height:121px; vertical-align:middle; text-align:center; line-height:8px; font-size:8px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAB+CAYAAAAQszJoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABaSURBVHhe7cGBAAAAAMOg+VPf4ARVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEcNDkUAARQThfoAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 136.000000 0.000000 L 0.000000 0.000000 L 0.000000 125.000000 L 136.000000 125.000000 L 136.000000 0.000000 z"}
 ,
 "image22775":{"x":326,"y":252,"w":14,"h":11,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
@@ -133,6 +149,8 @@ PhoneResponsive={"785":{
 ,
 "image51482":{"x":426,"y":311,"w":13,"h":13,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
 ,
+"shape58913":{"x":482,"y":249,"w":137.000000,"h":126.000000,"stylemods":[{"sel":"div.shape58913Text","decl":" { position:fixed; left:2px; top:2px; width:132px; height:121px;}"},{"sel":"span.shape58913Text","decl":" { display:table-cell; position:relative; width:132px; height:121px; vertical-align:middle; text-align:center; line-height:8px; font-size:8px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAB+CAYAAAAQszJoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABaSURBVHhe7cGBAAAAAMOg+VPf4ARVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEcNDkUAARQThfoAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 136.000000 0.000000 L 0.000000 0.000000 L 0.000000 125.000000 L 136.000000 125.000000 L 136.000000 0.000000 z"}
+,
 "image22719":{"x":483,"y":252,"w":14,"h":11,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
 "image20809":{"x":483,"y":249,"w":134,"h":70,"bOffBottom":0,"i":"images/1.9_cover.png"}
@@ -144,6 +162,8 @@ PhoneResponsive={"785":{
 "image51575":{"x":596,"y":312,"w":13,"h":13,"bOffBottom":0,"i":"images/leerlijn_product.png"}
 ,
 "image51573":{"x":580,"y":312,"w":13,"h":13,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
+,
+"shape58952":{"x":638,"y":249,"w":137.000000,"h":126.000000,"stylemods":[{"sel":"div.shape58952Text","decl":" { position:fixed; left:2px; top:2px; width:132px; height:121px;}"},{"sel":"span.shape58952Text","decl":" { display:table-cell; position:relative; width:132px; height:121px; vertical-align:middle; text-align:center; line-height:8px; font-size:8px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAB+CAYAAAAQszJoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABaSURBVHhe7cGBAAAAAMOg+VPf4ARVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEcNDkUAARQThfoAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 136.000000 0.000000 L 0.000000 0.000000 L 0.000000 125.000000 L 136.000000 125.000000 L 136.000000 0.000000 z"}
 ,
 "image22905":{"x":639,"y":252,"w":14,"h":11,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
@@ -213,7 +233,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image45577":{"x":78,"y":304,"w":8,"h":8,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
 ,
-"text18313":{"x":8,"y":338,"w":76,"h":110,"txtscale":100,"bOffBottom":0}
+"text18313":{"x":17,"y":338,"w":71,"h":67,"txtscale":100,"bOffBottom":0}
+,
+"shape58598":{"x":8,"y":193,"w":84.000000,"h":77.000000,"stylemods":[{"sel":"div.shape58598Text","decl":" { position:fixed; left:2px; top:2px; width:79px; height:72px;}"},{"sel":"span.shape58598Text","decl":" { display:table-cell; position:relative; width:79px; height:72px; vertical-align:middle; text-align:center; line-height:5px; font-size:5px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABNCAYAAAA4skOSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAwSURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD81ZV0AATIcAjgAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 83.000000 0.000000 L 0.000000 0.000000 L 0.000000 76.000000 L 83.000000 76.000000 L 83.000000 0.000000 z"}
 ,
 "image22873":{"x":104,"y":196,"w":8,"h":7,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
@@ -227,6 +249,8 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text20458":{"x":104,"y":339,"w":77,"h":110,"txtscale":100,"bOffBottom":0}
 ,
+"shape58646":{"x":104,"y":193,"w":84.000000,"h":77.000000,"stylemods":[{"sel":"div.shape58646Text","decl":" { position:fixed; left:2px; top:2px; width:79px; height:72px;}"},{"sel":"span.shape58646Text","decl":" { display:table-cell; position:relative; width:79px; height:72px; vertical-align:middle; text-align:center; line-height:5px; font-size:5px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABNCAYAAAA4skOSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAwSURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD81ZV0AATIcAjgAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 83.000000 0.000000 L 0.000000 0.000000 L 0.000000 76.000000 L 83.000000 76.000000 L 83.000000 0.000000 z"}
+,
 "image22807":{"x":200,"y":196,"w":8,"h":7,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
 "image20662":{"x":200,"y":194,"w":82,"h":43,"bOffBottom":0,"i":"images/1.3_cover.png"}
@@ -238,6 +262,8 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 "image50973":{"x":268,"y":304,"w":8,"h":8,"bOffBottom":0,"i":"images/leerlijn_systeem.png"}
 ,
 "image51131":{"x":258,"y":304,"w":8,"h":8,"bOffBottom":0,"i":"images/leerlijn_product.png"}
+,
+"shape58685":{"x":199,"y":193,"w":84.000000,"h":77.000000,"stylemods":[{"sel":"div.shape58685Text","decl":" { position:fixed; left:2px; top:2px; width:79px; height:72px;}"},{"sel":"span.shape58685Text","decl":" { display:table-cell; position:relative; width:79px; height:72px; vertical-align:middle; text-align:center; line-height:5px; font-size:5px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABNCAYAAAA4skOSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAwSURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD81ZV0AATIcAjgAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 83.000000 0.000000 L 0.000000 0.000000 L 0.000000 76.000000 L 83.000000 76.000000 L 83.000000 0.000000 z"}
 ,
 "image22533":{"x":295,"y":196,"w":8,"h":7,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
@@ -251,6 +277,10 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image51326":{"x":364,"y":303,"w":8,"h":8,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
 ,
+"shape58722":{"x":295,"y":193,"w":84.000000,"h":77.000000,"stylemods":[{"sel":"div.shape58722Text","decl":" { position:fixed; left:2px; top:2px; width:79px; height:72px;}"},{"sel":"span.shape58722Text","decl":" { display:table-cell; position:relative; width:79px; height:72px; vertical-align:middle; text-align:center; line-height:5px; font-size:5px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABNCAYAAAA4skOSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAwSURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD81ZV0AATIcAjgAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 83.000000 0.000000 L 0.000000 0.000000 L 0.000000 76.000000 L 83.000000 76.000000 L 83.000000 0.000000 z"}
+,
+"shape58762":{"x":390,"y":193,"w":84.000000,"h":77.000000,"stylemods":[{"sel":"div.shape58762Text","decl":" { position:fixed; left:2px; top:2px; width:79px; height:72px;}"},{"sel":"span.shape58762Text","decl":" { display:table-cell; position:relative; width:79px; height:72px; vertical-align:middle; text-align:center; line-height:5px; font-size:5px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABNCAYAAAA4skOSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAwSURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD81ZV0AATIcAjgAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 83.000000 0.000000 L 0.000000 0.000000 L 0.000000 76.000000 L 83.000000 76.000000 L 83.000000 0.000000 z"}
+,
 "image22743":{"x":391,"y":196,"w":8,"h":7,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
 "image20782":{"x":391,"y":194,"w":82,"h":43,"bOffBottom":0,"i":"images/1.5_cover.png"}
@@ -262,6 +292,8 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 "image52007":{"x":459,"y":304,"w":8,"h":8,"bOffBottom":0,"i":"images/leerlijn_regels.png"}
 ,
 "image52025":{"x":450,"y":304,"w":8,"h":8,"bOffBottom":0,"i":"images/leerlijn_systeem.png"}
+,
+"shape58789":{"x":8,"y":434,"w":84.000000,"h":77.000000,"stylemods":[{"sel":"div.shape58789Text","decl":" { position:fixed; left:2px; top:2px; width:79px; height:72px;}"},{"sel":"span.shape58789Text","decl":" { display:table-cell; position:relative; width:79px; height:72px; vertical-align:middle; text-align:center; line-height:5px; font-size:5px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABNCAYAAAA4skOSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAwSURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD81ZV0AATIcAjgAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 83.000000 0.000000 L 0.000000 0.000000 L 0.000000 76.000000 L 83.000000 76.000000 L 83.000000 0.000000 z"}
 ,
 "image20433":{"x":8,"y":439,"w":8,"h":7,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
@@ -275,6 +307,8 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text21922":{"x":8,"y":578,"w":66,"h":134,"txtscale":100,"bOffBottom":0}
 ,
+"shape58829":{"x":104,"y":434,"w":84.000000,"h":77.000000,"stylemods":[{"sel":"div.shape58829Text","decl":" { position:fixed; left:2px; top:2px; width:79px; height:72px;}"},{"sel":"span.shape58829Text","decl":" { display:table-cell; position:relative; width:79px; height:72px; vertical-align:middle; text-align:center; line-height:5px; font-size:5px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABNCAYAAAA4skOSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAwSURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD81ZV0AATIcAjgAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 83.000000 0.000000 L 0.000000 0.000000 L 0.000000 76.000000 L 83.000000 76.000000 L 83.000000 0.000000 z"}
+,
 "image22839":{"x":104,"y":439,"w":8,"h":7,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
 "image20795":{"x":104,"y":434,"w":82,"h":43,"bOffBottom":0,"i":"images/1.7_cover.png"}
@@ -286,6 +320,8 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 "image51440":{"x":174,"y":543,"w":8,"h":8,"bOffBottom":0,"i":"images/leerlijn_product.png"}
 ,
 "image51438":{"x":164,"y":543,"w":8,"h":8,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
+,
+"shape58871":{"x":199,"y":434,"w":84.000000,"h":77.000000,"stylemods":[{"sel":"div.shape58871Text","decl":" { position:fixed; left:2px; top:2px; width:79px; height:72px;}"},{"sel":"span.shape58871Text","decl":" { display:table-cell; position:relative; width:79px; height:72px; vertical-align:middle; text-align:center; line-height:5px; font-size:5px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABNCAYAAAA4skOSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAwSURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD81ZV0AATIcAjgAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 83.000000 0.000000 L 0.000000 0.000000 L 0.000000 76.000000 L 83.000000 76.000000 L 83.000000 0.000000 z"}
 ,
 "image22775":{"x":200,"y":439,"w":8,"h":7,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
@@ -299,6 +335,8 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image51482":{"x":260,"y":541,"w":8,"h":8,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
 ,
+"shape58913":{"x":295,"y":434,"w":84.000000,"h":77.000000,"stylemods":[{"sel":"div.shape58913Text","decl":" { position:fixed; left:2px; top:2px; width:79px; height:72px;}"},{"sel":"span.shape58913Text","decl":" { display:table-cell; position:relative; width:79px; height:72px; vertical-align:middle; text-align:center; line-height:5px; font-size:5px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABNCAYAAAA4skOSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAwSURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD81ZV0AATIcAjgAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 83.000000 0.000000 L 0.000000 0.000000 L 0.000000 76.000000 L 83.000000 76.000000 L 83.000000 0.000000 z"}
+,
 "image22719":{"x":295,"y":439,"w":8,"h":7,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
 "image20809":{"x":296,"y":434,"w":82,"h":43,"bOffBottom":0,"i":"images/1.9_cover.png"}
@@ -310,6 +348,8 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 "image51575":{"x":364,"y":543,"w":8,"h":8,"bOffBottom":0,"i":"images/leerlijn_product.png"}
 ,
 "image51573":{"x":355,"y":543,"w":8,"h":8,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
+,
+"shape58952":{"x":390,"y":434,"w":84.000000,"h":77.000000,"stylemods":[{"sel":"div.shape58952Text","decl":" { position:fixed; left:2px; top:2px; width:79px; height:72px;}"},{"sel":"span.shape58952Text","decl":" { display:table-cell; position:relative; width:79px; height:72px; vertical-align:middle; text-align:center; line-height:5px; font-size:5px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABNCAYAAAA4skOSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAwSURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD81ZV0AATIcAjgAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 83.000000 0.000000 L 0.000000 0.000000 L 0.000000 76.000000 L 83.000000 76.000000 L 83.000000 0.000000 z"}
 ,
 "image22905":{"x":391,"y":439,"w":8,"h":7,"bOffBottom":0,"i":"images/vinkje_case.png"}
 ,
