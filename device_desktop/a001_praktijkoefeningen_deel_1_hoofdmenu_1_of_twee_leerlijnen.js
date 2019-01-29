@@ -1,6 +1,8 @@
 DesktopResponsive={"1009":{
 "pageLayer":{"w":1366,"h":768,"bgColor":"#ffffff"}
 ,
+"":{"x":524,"y":258,"w":300,"h":200,"bOffBottom":0}
+,
 "":{"x":533,"y":284,"w":300,"h":200,"bOffBottom":0}
 ,
 "shape31":{"x":0,"y":0,"w":1367.000000,"h":62.000000,"stylemods":[{"sel":"div.shape31Text","decl":" { position:fixed; left:2px; top:2px; width:1362px; height:57px;}"},{"sel":"span.shape31Text","decl":" { display:table-cell; position:relative; width:1362px; height:57px; vertical-align:middle; text-align:center; line-height:15px; font-size:15px; font-family:\"Verdana\"; color:#7d603e;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABVcAAAA+CAYAAAAvZCu8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFgSURBVHhe7cExAQAAAMKg9U9tCF8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADjVACzRAAEPbxJUAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 1366.000000 0.000000 L 1366.000000 61.000000 L 0.000000 61.000000 L 0.000000 0.000000 z" ,"i":"images/shape31.png"}
@@ -49,7 +51,7 @@ DesktopResponsive={"1009":{
 ,
 "image45577":{"x":221,"y":304,"w":23,"h":23,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
 ,
-"text18313":{"x":48,"y":338,"w":200,"h":70,"txtscale":100,"bOffBottom":0}
+"text18313":{"x":48,"y":330,"w":223,"h":70,"txtscale":100,"bOffBottom":0}
 ,
 "text60822":{"x":47,"y":380,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
 ,
@@ -65,7 +67,7 @@ DesktopResponsive={"1009":{
 ,
 "image50888":{"x":491,"y":305,"w":23,"h":23,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
 ,
-"text20458":{"x":320,"y":339,"w":199,"h":70,"txtscale":100,"bOffBottom":0}
+"text20458":{"x":320,"y":330,"w":199,"h":70,"txtscale":100,"bOffBottom":0}
 ,
 "text60927":{"x":320,"y":380,"w":200,"h":80,"txtscale":100,"bOffBottom":0}
 ,
@@ -77,7 +79,7 @@ DesktopResponsive={"1009":{
 ,
 "image21781":{"x":569,"y":315,"w":233,"h":93,"bOffBottom":0,"i":"images/vormelement_case_1_of_2_leerlijnen.png"}
 ,
-"text21779":{"x":592,"y":339,"w":192,"h":70,"txtscale":100,"bOffBottom":0}
+"text21779":{"x":592,"y":330,"w":192,"h":70,"txtscale":100,"bOffBottom":0}
 ,
 "text61004":{"x":592,"y":380,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
 ,
@@ -93,9 +95,9 @@ DesktopResponsive={"1009":{
 ,
 "image21884":{"x":841,"y":315,"w":233,"h":93,"bOffBottom":0,"i":"images/vormelement_case_1_of_2_leerlijnen.png"}
 ,
-"text21882":{"x":864,"y":339,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
+"text21882":{"x":864,"y":330,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
 ,
-"text61061":{"x":864,"y":365,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
+"text61061":{"x":864,"y":360,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
 ,
 "image51328":{"x":1007,"y":303,"w":23,"h":23,"bOffBottom":0,"i":"images/leerlijn_regels.png"}
 ,
@@ -109,9 +111,9 @@ DesktopResponsive={"1009":{
 ,
 "image21886":{"x":1112,"y":315,"w":233,"h":93,"bOffBottom":0,"i":"images/vormelement_case_1_of_2_leerlijnen.png"}
 ,
-"text21887":{"x":1135,"y":338,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
+"text21887":{"x":1135,"y":330,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
 ,
-"text61095":{"x":1135,"y":365,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
+"text61095":{"x":1135,"y":360,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
 ,
 "image52007":{"x":1307,"y":304,"w":23,"h":23,"bOffBottom":0,"i":"images/leerlijn_regels.png"}
 ,
@@ -129,7 +131,7 @@ DesktopResponsive={"1009":{
 ,
 "image47547":{"x":194,"y":544,"w":23,"h":23,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
 ,
-"text21922":{"x":48,"y":575,"w":189,"h":70,"txtscale":100,"bOffBottom":0}
+"text21922":{"x":48,"y":567,"w":189,"h":70,"txtscale":100,"bOffBottom":0}
 ,
 "text61163":{"x":48,"y":618,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
 ,
@@ -141,9 +143,9 @@ DesktopResponsive={"1009":{
 ,
 "image22051":{"x":297,"y":555,"w":233,"h":93,"bOffBottom":0,"i":"images/vormelement_case_1_of_2_leerlijnen.png"}
 ,
-"text22049":{"x":320,"y":575,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
+"text22049":{"x":320,"y":567,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
 ,
-"text61212":{"x":320,"y":605,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
+"text61212":{"x":320,"y":598,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
 ,
 "image51440":{"x":495,"y":543,"w":23,"h":23,"bOffBottom":0,"i":"images/leerlijn_product.png"}
 ,
@@ -157,9 +159,9 @@ DesktopResponsive={"1009":{
 ,
 "image22112":{"x":569,"y":555,"w":233,"h":93,"bOffBottom":0,"i":"images/vormelement_case_1_of_2_leerlijnen.png"}
 ,
-"text22110":{"x":592,"y":575,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
+"text22110":{"x":592,"y":567,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
 ,
-"text61271":{"x":592,"y":605,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
+"text61271":{"x":592,"y":598,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
 ,
 "image51484":{"x":768,"y":541,"w":23,"h":23,"bOffBottom":0,"i":"images/leerlijn_product.png"}
 ,
@@ -173,9 +175,9 @@ DesktopResponsive={"1009":{
 ,
 "image22159":{"x":840,"y":555,"w":233,"h":93,"bOffBottom":0,"i":"images/vormelement_case_1_of_2_leerlijnen.png"}
 ,
-"text22157":{"x":864,"y":575,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
+"text22157":{"x":864,"y":567,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
 ,
-"text61300":{"x":864,"y":605,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
+"text61300":{"x":864,"y":598,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
 ,
 "image51575":{"x":1037,"y":543,"w":23,"h":23,"bOffBottom":0,"i":"images/leerlijn_product.png"}
 ,
@@ -189,9 +191,9 @@ DesktopResponsive={"1009":{
 ,
 "image22172":{"x":1113,"y":555,"w":233,"h":93,"bOffBottom":0,"i":"images/vormelement_case_1_of_2_leerlijnen.png"}
 ,
-"text22170":{"x":1135,"y":575,"w":206,"h":70,"txtscale":100,"bOffBottom":0}
+"text22170":{"x":1135,"y":567,"w":206,"h":70,"txtscale":100,"bOffBottom":0}
 ,
-"text61327":{"x":1135,"y":605,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
+"text61327":{"x":1135,"y":598,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
 ,
 "image51815":{"x":1279,"y":543,"w":23,"h":23,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
 ,
