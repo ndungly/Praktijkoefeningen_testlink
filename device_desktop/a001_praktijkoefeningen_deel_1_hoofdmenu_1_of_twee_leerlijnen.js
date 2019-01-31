@@ -3,17 +3,15 @@ DesktopResponsive={"1009":{
 ,
 "":{"x":524,"y":258,"w":300,"h":200,"bOffBottom":0}
 ,
-"":{"x":524,"y":258,"w":300,"h":200,"bOffBottom":0}
-,
 "shape31":{"x":0,"y":0,"w":1367.000000,"h":62.000000,"stylemods":[{"sel":"div.shape31Text","decl":" { position:fixed; left:2px; top:2px; width:1362px; height:57px;}"},{"sel":"span.shape31Text","decl":" { display:table-cell; position:relative; width:1362px; height:57px; vertical-align:middle; text-align:center; line-height:15px; font-size:15px; font-family:\"Verdana\"; color:#7d603e;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABVcAAAA+CAYAAAAvZCu8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFgSURBVHhe7cExAQAAAMKg9U9tCF8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADjVACzRAAEPbxJUAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 1366.000000 0.000000 L 1366.000000 61.000000 L 0.000000 61.000000 L 0.000000 0.000000 z" ,"i":"images/shape31.png"}
 ,
-"image30":{"x":21,"y":19,"w":105,"h":32,"bOffBottom":0,"i":"images/logo-zk.jpg"}
+"image30":{"x":19,"y":18,"w":134,"h":43,"bOffBottom":0,"i":"images/zk_online_rgb.png"}
 ,
-"image12850":{"x":1243,"y":12,"w":107,"h":43,"bOffBottom":0,"i":"images/button_sluit_module.png"}
+"image12850":{"x":1204,"y":10,"w":150,"h":57,"bOffBottom":0,"i":"images/button_sluit_module.png"}
 ,
-"text13420":{"x":482,"y":16,"w":403,"h":39,"txtscale":100,"bOffBottom":0}
+"image69067":{"x":1030,"y":10,"w":164,"h":57,"bOffBottom":0,"i":"images/button_video.png"}
 ,
-"image14227":{"x":1124,"y":12,"w":107,"h":43,"bOffBottom":0,"i":"images/button_video.png"}
+"text13420":{"x":482,"y":16,"w":403,"h":55,"txtscale":100,"bOffBottom":0}
 ,
 "shape80":{"x":696,"y":88,"w":648.000000,"h":72.000000,"stylemods":[{"sel":"div.shape80Text","decl":" { position:fixed; left:5px; top:4px; width:639px; height:65px;}"},{"sel":"span.shape80Text","decl":" { display:table-cell; position:relative; width:639px; height:65px; vertical-align:middle; text-align:center; line-height:19px; font-size:19px; font-family:\"Titillium Web\"; font-weight:bold; color:#b1e0e2;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAogAAABICAYAAAB1PgQnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVbSURBVHhe7duLkds2EABQ95NWUooLSSEpIFeRP40kWAigAAgUqQ8lx/feDOaoxQJcMcpgo7t8AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID/rY8fP/4olw/7+P79z3++/fzr4/vPr3FdwpDFZ+2Zn7dbze6/NwYAv71TA/fz38n4WlJuVhrD817ffvxdptjwGRqS+A+G5bPxhvc6u3+6Xv49yElJG9MkAvBpXDRyw4j5knqTaAiXfdL1vft8Nrk5PD//uxv0X50GEQB+UUMzkg/AZbQN3h0HY7Pvb9vkHGH4Z6JBPMja/fPzH+qZxQDgtxUNyHJIpgOzhLN8KC5zfaOSD9doIMs3g+Ph2X0rWXNu3CPmI17n8s+V3OqIPau1tfV9RSyu6/0jPy8cXKtx2Xfj2VWvqKm1ldfWk1/Xmib75b3q+5zsc3Q9s/uP+aGNzfKWPZ9Y6949AeAQ+fAph2QJdepc5JVQ/6vjfixNzGSu+xvEnXs0zetkjAfsAXu20vz1tfPRNXZbNcb9J3Orf7+Z5g6vqbr5+bb5k+eaG6bJ/Kvqmd0/XS/5eYOkjc3ypmN4vzfXOhvDngBwmOXgSj9LqDPOp+v2EEvX5VuREsuLkrbxjPnyOh+G8XOZu7LHaW7Yo8mL+ZJ6yJ6jmFvy5mtzI13e6xIry3fVGE1At77eZ6WuiF/kPrmmcJq7Oe88Js1N3mOYT9cvq2fr/nmDpI1N60z3nTz3l342AeCplgMo/SyhzjhfX8fhlROS02FbD7HzrzDPsf5g27tHrKuxnFTUWLf+gD1HW2tjvoS63KWp2FtjF7veFMR8zS2hrMZivoQeq+mO55uvy31mYs2S+4Z6pvdv8nNS0sau5YUa6+q6o9acVNRYux4ADlUPr/hZQp1xvh5W8ToOrDqWeDnswjk2NIg1vrFHrKuxvLAYawo175l7jlbXlljcr4RSbNp8nF5v1dg1D481iE+raX/etJ6Zd9ezcv+L/DZ2LS9EPTmefpZQ5J7W3lnrbE8AOFR7UJVQp87Vw2l5vTpOh11o4vMGcXXcfmDWvPXx+CG8urbE4lmWUIpdaX5WR6kx5Tfx1zSIq2N5bpO5dlx/vjPvrmfl/hf5bexaXnjXZxMAnqo9lOrhV8XrOlcbjfawOh2w/cgLi2XfdI8SyvbuEevqHiWUtetL6JA9R6trS2yzGdtbY/Pc0zi2Qdxb0968lXpmTmvfV88pd7j/JL+NXcsLbV0l9HCtsz0B4FBdMxIHUT0AI14PpjxOB1k0HEus5FYXr5e1fZOzd49YV/NKKJsdmEfsOVpdW2Jbzdgznt0o5mtuCWU19qyaHn2+M++uZ3b/WX4bu5YX3vXZBICn6w6w2WgOpu5QnYySljXx/hvEnXuk690H5hF7jlbXllg8xxLq61maihueXa2njHbvVpp7SU2PPt+Zd9czv/9lfhu7lhfe9dkEgEOsNYmzxiTFzwdmO4YDrJm7+BYsYs38eXQH620HZpvfjQf2bK2uLbGtZiyk15s1hhTr81bqavNKKKuxQ2ua5KXX03pm3l3PqxrE0OZ3Y0eta3sCwMvEAVhHCa26JXfNM/YYHbHns+2t8ZXv49aatvIetfc+e/Putda43ePoWgEAOFhu5kpz6Bs8AIBPrmsO8zj/H8cAAHxS+e//YviVMAAAQWMIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfF5fvvwHE2PzoY9hXvQAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 8.000000 1.000000 L 639.000000 1.000000 L 641.750000 1.562500 L 643.937500 3.062500 L 645.437500 5.312500 L 646.000000 8.000000 L 646.000000 63.000000 L 645.437500 65.750000 L 643.937500 67.937500 L 641.750000 69.437500 L 639.000000 70.000000 L 8.000000 70.000000 L 5.375000 69.500000 L 3.062500 68.000000 L 1.562500 65.687500 L 1.000000 63.000000 L 1.000000 8.000000 L 1.562500 5.312500 L 3.062500 3.062500 L 5.312500 1.562500 L 8.000000 1.000000 z" ,"i":"images/shape80.png"}
 ,
@@ -131,7 +129,7 @@ DesktopResponsive={"1009":{
 ,
 "image47547":{"x":194,"y":544,"w":23,"h":23,"bOffBottom":0,"i":"images/leerlijn_gesprek.png"}
 ,
-"text21922":{"x":48,"y":567,"w":189,"h":70,"txtscale":100,"bOffBottom":0}
+"text21922":{"x":48,"y":569,"w":189,"h":70,"txtscale":100,"bOffBottom":0}
 ,
 "text61163":{"x":48,"y":618,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
 ,
@@ -143,7 +141,7 @@ DesktopResponsive={"1009":{
 ,
 "image22051":{"x":297,"y":555,"w":233,"h":93,"bOffBottom":0,"i":"images/vormelement_case_1_of_2_leerlijnen.png"}
 ,
-"text22049":{"x":320,"y":567,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
+"text22049":{"x":320,"y":569,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
 ,
 "text61212":{"x":320,"y":598,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
 ,
@@ -159,7 +157,7 @@ DesktopResponsive={"1009":{
 ,
 "image22112":{"x":569,"y":555,"w":233,"h":93,"bOffBottom":0,"i":"images/vormelement_case_1_of_2_leerlijnen.png"}
 ,
-"text22110":{"x":592,"y":567,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
+"text22110":{"x":592,"y":569,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
 ,
 "text61271":{"x":592,"y":598,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
 ,
@@ -175,7 +173,7 @@ DesktopResponsive={"1009":{
 ,
 "image22159":{"x":840,"y":555,"w":233,"h":93,"bOffBottom":0,"i":"images/vormelement_case_1_of_2_leerlijnen.png"}
 ,
-"text22157":{"x":864,"y":567,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
+"text22157":{"x":864,"y":569,"w":181,"h":70,"txtscale":100,"bOffBottom":0}
 ,
 "text61300":{"x":864,"y":598,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
 ,
@@ -191,7 +189,7 @@ DesktopResponsive={"1009":{
 ,
 "image22172":{"x":1113,"y":555,"w":233,"h":93,"bOffBottom":0,"i":"images/vormelement_case_1_of_2_leerlijnen.png"}
 ,
-"text22170":{"x":1135,"y":567,"w":206,"h":70,"txtscale":100,"bOffBottom":0}
+"text22170":{"x":1135,"y":569,"w":206,"h":70,"txtscale":100,"bOffBottom":0}
 ,
 "text61327":{"x":1135,"y":598,"w":157,"h":29,"txtscale":100,"bOffBottom":0}
 ,
@@ -206,5 +204,5 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 }
 ,
 "RCDResultResize":function(){}
-,"preload":['images/logo-zk.jpg','images/button_sluit_module.png','images/button_sluit_module_hover.png','images/button_video.png','images/button_video_hover.png','images/vormelement_case_1_of_2_leerlijnen.png','images/1.6_cover.png','images/leerlijn_merk.png','images/leerlijn_gesprek.png','images/leerlijn_systeem.png','images/leerlijn_regels.png','images/leerlijn_product.png','images/vinkje_case.png','images/1.1_cover.png','images/1.2_cover.png','images/1.3_cover.png','images/1.4_cover.png','images/1.5_cover.png','images/1.7_cover.png','images/1.8_cover.png','images/1.9_cover.png','images/1.10_cover.png','images/shape31.png','images/shape31.png','images/shape80.png','images/shape14918.png','images/shape58598.png','images/shape58646.png','images/shape58685.png','images/shape58722.png','images/shape58762.png','images/shape58789.png','images/shape58829.png','images/shape58871.png','images/shape58913.png','images/shape58952.png']
+,"preload":['images/button_sluit_module.png','images/button_sluit_module_hover.png','images/button_video.png','images/button_video_hover.png','images/vormelement_case_1_of_2_leerlijnen.png','images/1.6_cover.png','images/leerlijn_merk.png','images/leerlijn_gesprek.png','images/leerlijn_systeem.png','images/leerlijn_regels.png','images/leerlijn_product.png','images/vinkje_case.png','images/1.1_cover.png','images/1.2_cover.png','images/1.3_cover.png','images/1.4_cover.png','images/1.5_cover.png','images/1.7_cover.png','images/1.8_cover.png','images/1.9_cover.png','images/1.10_cover.png','images/zk_online_rgb.png','images/shape31.png','images/shape31.png','images/shape80.png','images/shape14918.png','images/shape58598.png','images/shape58646.png','images/shape58685.png','images/shape58722.png','images/shape58762.png','images/shape58789.png','images/shape58829.png','images/shape58871.png','images/shape58913.png','images/shape58952.png']
 }}

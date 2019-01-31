@@ -1,3 +1,56 @@
+/* Fonts aanroepen */
+
+
+@font-face {
+    font-family: 'Titillium Web Bold';
+    src: url('webfonts/titilliumweb-bold-webfont.eot');
+    src: url('webfonts/titilliumweb-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/titilliumweb-bold-webfont.woff2') format('woff2'),
+         url('webfonts/titilliumweb-bold-webfont.woff') format('woff'),
+         url('webfonts/titilliumweb-bold-webfont.ttf') format('truetype'),
+         url('webfonts/titilliumweb-bold-webfont.svg#titillium_webbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Titillium Web Light';
+    src: url('webfonts/titilliumweb-light-webfont.eot');
+    src: url('webfonts/titilliumweb-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/titilliumweb-light-webfont.woff2') format('woff2'),
+         url('webfonts/titilliumweb-light-webfont.woff') format('woff'),
+         url('webfonts/titilliumweb-light-webfont.ttf') format('truetype'),
+         url('webfonts/titilliumweb-light-webfont.svg#titillium_weblight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('webfonts/titilliumweb-regular-webfont.eot');
+    src: url('webfonts/titilliumweb-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/titilliumweb-regular-webfont.woff2') format('woff2'),
+         url('webfonts/titilliumweb-regular-webfont.woff') format('woff'),
+         url('webfonts/titilliumweb-regular-webfont.ttf') format('truetype'),
+         url('webfonts/titilliumweb-regular-webfont.svg#titillium_webregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Titillium Web SemiBold';
+    src: url('webfonts/titilliumweb-semibold-webfont.eot');
+    src: url('webfonts/titilliumweb-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/titilliumweb-semibold-webfont.woff2') format('woff2'),
+         url('webfonts/titilliumweb-semibold-webfont.woff') format('woff'),
+         url('webfonts/titilliumweb-semibold-webfont.ttf') format('truetype'),
+         url('webfonts/titilliumweb-semibold-webfont.svg#titillium_websemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
 
 
 /* CSS teksten */
@@ -8,54 +61,48 @@
     font-family: "Titillium Web" !important;
     font-size: 14px !important;
     line-height: 18px !important;
-    font-style: 600 !important;
-    color: red !important;
-    font-weight: normal !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
 }
 
 .menu-case-descr {
     font-family: "Titillium Web" !important;
     font-size: 11px !important;
     line-height: 18px !important;
-    font-style: 400 !important;
-    color: red !important;
     font-weight: normal !important;
+    font-style: normal !important;
 }
 
-.module-title {
+.moduletitle {
     font-family: "Titilium Web" !important;
     font-size: 16px !important;
     line-height: 20px !important;
-    font-style: 700 !important;
-    color: red !important;
-    font-weight: normal !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
 }
 
 .case-title {
     font-family: "Titilium Web" !important;
     font-size: 16px !important;
     line-height: 20px !important;
-    font-style: 700 !important;
-    color: red !important;
-    font-weight: normal !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
 }
 
 .case-subtitle {
     font-family: "Titilium Web" !important;
     font-size: 12px !important;
     line-height: 16px !important;
-    font-style: 400 !important;
-    color: red !important;
     font-weight: normal !important;
+    font-style: normal !important;
 }
 
 .body-txt {
     font-family: "Titillium Web" !important;
     font-size: 12px !important;
     line-height: 18px !important;
-    font-style: 400 !important;
-    color: red !important;
     font-weight: normal !important;
+    font-style: normal !important;
 }
 
 .body-ul {
@@ -63,20 +110,22 @@
     font-family: "Titillium Web" !important;
     font-size: 12px !important;
     line-height: 18px !important;
-    font-style: 400 !important;
-    color: red !important;
     font-weight: normal !important;
+    font-style: normal !important;
 }
 
 .body-bold {
     font-family: "Titilium Web" !important;
     font-size: 12px !important;
     line-height: 18px !important;
-    font-style: 700 !important;
-    color: red !important;
-    font-weight: normal !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
 }
 
+.leerlijn-txt {
+    font-family: "Titillium Web";
+    font-size: 14px;
+}
 
 /* Open tekstvelden stylen */
 

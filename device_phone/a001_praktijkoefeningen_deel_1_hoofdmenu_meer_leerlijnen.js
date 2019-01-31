@@ -3,17 +3,15 @@ PhoneResponsive={"785":{
 ,
 "":{"x":301,"y":148,"w":172,"h":115,"bOffBottom":0}
 ,
-"":{"x":301,"y":148,"w":172,"h":115,"bOffBottom":0}
-,
 "shape31":{"x":0,"y":0,"w":786.000000,"h":36.000000,"stylemods":[{"sel":"div.shape31Text","decl":" { position:fixed; left:2px; top:2px; width:781px; height:31px;}"},{"sel":"span.shape31Text","decl":" { display:table-cell; position:relative; width:781px; height:31px; vertical-align:middle; text-align:center; line-height:8px; font-size:8px; font-family:\"Verdana\"; color:#7d603e;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxIAAAAkCAYAAAAdDwzmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACESURBVHhe7cEBDQAAAMKg909tDwcEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJdqulMAAeAq1ZYAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 785.000000 0.000000 L 785.000000 35.000000 L 0.000000 35.000000 L 0.000000 0.000000 z"}
 ,
-"image30":{"x":12,"y":11,"w":60,"h":18,"bOffBottom":0,"i":"images/logo-zk.jpg"}
+"image30":{"x":11,"y":10,"w":77,"h":25,"bOffBottom":0,"i":"images/zk_online_rgb.png"}
 ,
-"image12850":{"x":714,"y":7,"w":61,"h":25,"bOffBottom":0,"i":"images/button_sluit_module.png"}
+"image12850":{"x":692,"y":6,"w":86,"h":33,"bOffBottom":0,"i":"images/button_sluit_module.png"}
+,
+"image69098":{"x":592,"y":6,"w":94,"h":33,"bOffBottom":0,"i":"images/button_video.png"}
 ,
 "text29412":{"x":277,"y":9,"w":232,"h":82,"txtscale":100,"bOffBottom":0}
-,
-"image29514":{"x":646,"y":7,"w":61,"h":25,"bOffBottom":0,"i":"images/button_video.png"}
 ,
 "shape29519":{"x":400,"y":50,"w":374.000000,"h":43.000000,"stylemods":[{"sel":"div.shape29519Text","decl":" { position:fixed; left:5px; top:4px; width:365px; height:36px;}"},{"sel":"span.shape29519Text","decl":" { display:table-cell; position:relative; width:365px; height:36px; vertical-align:middle; text-align:center; line-height:10px; font-size:10px; font-family:\"Titillium Web\"; font-weight:bold; color:#002857;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXYAAAArCAYAAABsOaP4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJISURBVHhe7dhRjtpADABQblOqXmW/Sw+xB+lB9p5bGWONF5I0ASSU9j1phOMxZhNpXMoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4PWOp7fDt5+/z+v7rx+X7LyoP54+zmtNPSmf2fvl6jG911wM/KdimB9Pn5eBEK+xlgfDeM/7bgZ73F/83a+05tmu1XsZ7MAXMSD6wMvB8HGOY2jHkMhB/tZy+Y9A5ON6qi7kdeXHsNlaX673o0/EsSIOU73zfxgxCG+He/Wq17U9w1y+rmNVj9CH8aM9e69eexuPeyvLn3FbD+zIGBDjcMeBjlzGOeTzoGddrohj5U8xU3X5/lEXr7Gf+W315Xp/qnaqd91T1Xc9fx3//e+dy1efz/PzKZnLgfloz4yr11Ica+39TNcDO7I02PveGN45MHIg9G/103WZ//qerfVd34+9GjyRi73l3qO+u7fn8meNnl3ln9GzX6+Jn/H8gR0YhzwPc8gDnQc/X+Pg17o99Et1U4Nia33X92MvajKub+RLve8b7HM9195HV/ln9OzXa+JnPH9gJ+pwx5CvQR+Hug/92iv90C/VTQ2KrfVd34+9qMk4h/BS76iN1XPh3p5z+dB7dr3+0Z79ek1cz3PtZ1Q9sEPjoNcahzkPd9/Ln2yuD/1cXca3g2Jrfen7sRc1GecQDvO9s6bqSubu6zn/WRFnz67nH+3Zr9fE2fex5w/AC/ThDMDOxTfsGOwA/CPqJxUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1jsc/gAeYcDukTBfdQAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 5.000000 1.000000 L 368.000000 1.000000 L 369.562500 1.312500 L 370.875000 2.187500 L 371.687500 3.437500 L 372.000000 5.000000 L 372.000000 37.000000 L 371.687500 38.562500 L 370.875000 39.875000 L 369.562500 40.687500 L 368.000000 41.000000 L 5.000000 41.000000 L 3.500000 40.750000 L 2.187500 39.875000 L 1.312500 38.562500 L 1.000000 37.000000 L 1.000000 5.000000 L 1.312500 3.437500 L 2.187500 2.187500 L 3.437500 1.312500 L 5.000000 1.000000 z"}
 ,
@@ -123,17 +121,15 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "":{"x":184,"y":258,"w":105,"h":70,"bOffBottom":0}
 ,
-"":{"x":184,"y":258,"w":105,"h":70,"bOffBottom":0}
-,
 "shape31":{"x":0,"y":0,"w":481.000000,"h":22.000000,"stylemods":[{"sel":"div.shape31Text","decl":" { position:fixed; left:2px; top:2px; width:476px; height:17px;}"},{"sel":"span.shape31Text","decl":" { display:table-cell; position:relative; width:476px; height:17px; vertical-align:middle; text-align:center; line-height:4px; font-size:4px; font-family:\"Verdana\"; color:#7d603e;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeEAAAAWCAYAAAD3qiQbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABASURBVHhe7cGBAAAAAMOg+VNf4QBVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACHGqVuAAGlvLoZAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 480.000000 0.000000 L 480.000000 21.000000 L 0.000000 21.000000 L 0.000000 0.000000 z"}
 ,
-"image30":{"x":7,"y":19,"w":37,"h":11,"bOffBottom":0,"i":"images/logo-zk.jpg"}
+"image30":{"x":7,"y":18,"w":47,"h":15,"bOffBottom":0,"i":"images/zk_online_rgb.png"}
 ,
-"image12850":{"x":437,"y":12,"w":38,"h":15,"bOffBottom":0,"i":"images/button_sluit_module.png"}
+"image12850":{"x":423,"y":10,"w":53,"h":20,"bOffBottom":0,"i":"images/button_sluit_module.png"}
+,
+"image69098":{"x":362,"y":10,"w":58,"h":20,"bOffBottom":0,"i":"images/button_video.png"}
 ,
 "text29412":{"x":169,"y":16,"w":142,"h":82,"txtscale":100,"bOffBottom":0}
-,
-"image29514":{"x":395,"y":12,"w":38,"h":15,"bOffBottom":0,"i":"images/button_video.png"}
 ,
 "shape29519":{"x":244,"y":88,"w":230.000000,"h":27.000000,"stylemods":[{"sel":"div.shape29519Text","decl":" { position:fixed; left:4px; top:4px; width:223px; height:20px;}"},{"sel":"span.shape29519Text","decl":" { display:table-cell; position:relative; width:223px; height:20px; vertical-align:middle; text-align:center; line-height:6px; font-size:6px; font-family:\"Titillium Web\"; font-weight:bold; color:#002857;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOYAAAAbCAYAAABoZvN8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE5SURBVHhe7dZRbsIwEITh3KZBvQrPTQ/BQXoQ7kk1cQcWd+04EpF4+D8J2dnNhFRaq0wAAAAAAAAAAAAAAAAAAABH+Pj6mebluq4tW/0jzcv5b/d6p+/P3X+XM/UKvIyGSodO5uWyfsr+fB827efllvZK/nIfUNnqS6z7/ixff7eMZiVeO6eaqRa/ayTrjGv16p5kz4h9IBUHR3sPn2oeotLz4X3ulWG7rnWvvb5luV4+Gs22nqW6qZbd28s6k62996n7QJOHp+zLf0wPjoeq9B4HM/ZaQ9nqW13v5WNORrOtd4lc25P1vrdm71P3ga4yRPrc1qEpg6Ofj6o9H8y6Vw/bVt/y3P+86Fr32mg2u47PEdf2ZGOmtbbeJ/YBHEiHTgcOwBvRT1YAAAAAAAAAAAAAAAAcbZp+AQb3OCaqTCoWAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 3.000000 1.000000 L 226.000000 1.000000 L 227.437500 1.625000 L 228.000000 3.000000 L 228.000000 23.000000 L 227.437500 24.437500 L 226.000000 25.000000 L 3.000000 25.000000 L 1.625000 24.437500 L 1.000000 23.000000 L 1.000000 3.000000 L 1.625000 1.625000 L 3.000000 1.000000 z"}
 ,
