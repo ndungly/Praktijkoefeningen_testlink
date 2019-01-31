@@ -172,7 +172,7 @@ function init() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(shape31,image30,image12850,image27429,image27404,shape25476,shape26120,text62277,text58444,shape58567,shape58569,shape58572,shape58575,shape58578,image58580,image58583,text58585,text58586))
+    PreloadResources(new Array(shape31,image30,image12850,image27429,image27404,shape25476,shape26120,text62277,text58444,shape58567,shape58569,shape58572,shape58575,shape58578,image58580,image58583,text58585,text74627,text74634,text74641,text58586,text75093))
     pageLayer.show(true);
     shape31.init()
     image30.init()
@@ -191,7 +191,11 @@ function init() {
     image58580.init()
     image58583.init()
     text58585.init()
+    text74627.init()
+    text74634.init()
+    text74641.init()
     text58586.init()
+    text75093.init()
     shape31.activate()
     image30.activate()
     image12850.activate()
@@ -209,7 +213,11 @@ function init() {
     image58580.activate()
     image58583.activate()
     text58585.activate()
+    text74627.activate()
+    text74634.activate()
+    text74641.activate()
     text58586.activate()
+    text75093.activate()
     window.scrollTo(0,1);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
     if(titleManagerIndexWindow)titleManagerIndexWindow.scrollTo(0,1);
@@ -698,26 +706,75 @@ image58583.hasOnUp = true
 image58583.capture=4
 image58583.build()
 
-text58585 = new ObjText('text58585',null,106,205,534,553,1,18,null,'div',null,0 )
+text58585 = new ObjText('text58585',null,106,205,534,44,1,18,null,'div',null,0 ,'body-bold')
 text58585.initSLine(0)
-text58585.initHasBullet(1)
+text58585.initHasBullet(0)
 text58585.initRotateAngle(0,0,0)
 text58585.initHasOuterShadow(0)
 text58585.initHasTextShadow(0)
 text58585.initHasBorder(0)
 text58585.initHasOutline(0)
 text58585.initHasMargin(0)
-text58585.addIe8Attr(106, 205, 534, 553, 0, 0)
+text58585.addIe8Attr(106, 205, 534, 44, 0, 0)
 text58585.addOpacity(100)
 text58585.arrCSSStyles = new Array();
-text58585.arrCSSStyles.push('span.text58585Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold; font-style:normal; text-decoration:normal;}');
-text58585.arrCSSStyles.push('li.text58585Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold; font-style:normal; text-decoration:normal;}');
-text58585.arrCSSStyles.push('span.text58585Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text58585.arrCSSStyles.push('li.text58585Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text58585.addInnerText('<div id=\"text58585\"><a id=\"text58585anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58585Font1\" style=\"position:relative;top:-2px;\" >1. Verbinding met de klant\n</span ></p >\n<ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text58585Font2\" data-bltIndnt=\"0\" style=\"line-height:1.409;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text58585CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text58585Font2\"  >Stel vragen om de benodigde informatie te krijgen\n</span ></li >\n<li  class=\"text58585Font2\" data-bltIndnt=\"0\" style=\"line-height:1.409;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text58585CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text58585Font2\"  >Vat de informatie van de klant samen \n</span ></li >\n<li  class=\"text58585Font2\" data-bltIndnt=\"0\" style=\"line-height:1.409;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text58585CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text58585Font2\"  >Feliciteer mevrouw Janssen met haar zwangerschap\n</span ></li >\n<li  class=\"text58585Font2\" data-bltIndnt=\"0\" style=\"line-height:1.409;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text58585CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text58585Font2\"  >Gebruik de wachtstand om de regie te behouden &nbsp;\n</span ></li >\n<li  class=\"text58585Font2\" data-bltIndnt=\"0\" style=\"line-height:1.409;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text58585CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text58585Font2\"  >Stem jouw antwoord met de klant af &nbsp;\n</span ></li >\n</ul >\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58585Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58585Font1\" style=\"position:relative;top:-2px;\" >2. Juiste antwoord\n</span ></p >\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58585Font2\" style=\"position:relative;top:-2px;\" >Uit het Basis Zeker pakket ontvangt Eva maximaal €215. Alles boven de €215 moet zij zelf betalen. Dit is haar eigen bijdrage. De verloskundige zorg krijgt zij voor 100% vergoed uit haar Basis Zeker pakket. \n</span ></p >\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58585Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58585Font2\" style=\"position:relative;top:-2px;\" >Eva ontvangt minimaal 24 uur kraamzorg (tijdens de eerste 8 dagen na de bevalling). Het kraamzorgcentrum bekijkt hoeveel uur kraamzorg past bij uw situatie. Het Zinkraamzorg in Katwijk is een gecontracteerde zorgverlener. Hierdoor ontvangt zij de maximale vergoeding. Eva betaalt wel een eigen bijdrage van €4,40 per uur. </span ><span class=\"text58585Font1\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n</span ></p >\n</div>\n');
+text58585.arrCSSStyles.push('span.text58585Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
+text58585.arrCSSStyles.push('span.text58585Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text58585.addInnerText('<div id=\"text58585\" class=\"body-bold\"><a id=\"text58585anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58585Font1\" style=\"position:relative;top:-5px;\" >1. Verbinding met de klant</span ><span class=\"text58585Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
 text58585.build()
 
-text58586 = new ObjText('text58586',null,702,205,566,391,1,19,null,'div',null,0 )
+text74627 = new ObjText('text74627',null,106,246,534,195,1,19,null,'div',null,0 ,'body-ul')
+text74627.initSLine(0)
+text74627.initHasBullet(1)
+text74627.initRotateAngle(0,0,0)
+text74627.initHasOuterShadow(0)
+text74627.initHasTextShadow(0)
+text74627.initHasBorder(0)
+text74627.initHasOutline(0)
+text74627.initHasMargin(0)
+text74627.addIe8Attr(106, 246, 534, 195, 0, 0)
+text74627.addOpacity(100)
+text74627.arrCSSStyles = new Array();
+text74627.arrCSSStyles.push('span.text74627Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text74627.arrCSSStyles.push('li.text74627Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text74627.addInnerText('<div id=\"text74627\" class=\"body-ul\"><a id=\"text74627anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text74627Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text74627CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text74627Font1\"  >Stel vragen om de benodigde informatie te krijgen\n</span ></li >\n<li  class=\"text74627Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text74627CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text74627Font1\"  >Vat de informatie van de klant samen \n</span ></li >\n<li  class=\"text74627Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text74627CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text74627Font1\"  >Feliciteer mevrouw Janssen met haar zwangerschap\n</span ></li >\n<li  class=\"text74627Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text74627CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text74627Font1\"  >Gebruik de wachtstand om de regie te behouden &nbsp;\n</span ></li >\n<li  class=\"text74627Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text74627CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text74627Font1\"  >Stem jouw antwoord met de klant af \n</span ></li >\n</ul >\n</div>\n');
+text74627.build()
+
+text74634 = new ObjText('text74634',null,106,412,534,51,1,20,null,'div',null,0 ,'body-bold')
+text74634.initSLine(0)
+text74634.initHasBullet(0)
+text74634.initRotateAngle(0,0,0)
+text74634.initHasOuterShadow(0)
+text74634.initHasTextShadow(0)
+text74634.initHasBorder(0)
+text74634.initHasOutline(0)
+text74634.initHasMargin(0)
+text74634.addIe8Attr(106, 412, 534, 51, 0, 0)
+text74634.addOpacity(100)
+text74634.arrCSSStyles = new Array();
+text74634.arrCSSStyles.push('span.text74634Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
+text74634.arrCSSStyles.push('span.text74634Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text74634.addInnerText('<div id=\"text74634\" class=\"body-bold\"><a id=\"text74634anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text74634Font1\" style=\"position:relative;top:-5px;\" >2. Juiste antwoord</span ><span class=\"text74634Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
+text74634.build()
+
+text74641 = new ObjText('text74641',null,106,457,534,328,1,21,null,'div',null,0 ,'body-txt')
+text74641.initSLine(0)
+text74641.initHasBullet(0)
+text74641.initRotateAngle(0,0,0)
+text74641.initHasOuterShadow(0)
+text74641.initHasTextShadow(0)
+text74641.initHasBorder(0)
+text74641.initHasOutline(0)
+text74641.initHasMargin(0)
+text74641.addIe8Attr(106, 457, 534, 328, 0, 0)
+text74641.addOpacity(100)
+text74641.arrCSSStyles = new Array();
+text74641.arrCSSStyles.push('span.text74641Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text74641.arrCSSStyles.push('span.text74641Font3 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text74641.addInnerText('<div id=\"text74641\" class=\"body-txt\"><a id=\"text74641anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text74641Font1\" style=\"position:relative;top:-5px;\" >Uit het Basis Zeker pakket ontvangt Eva maximaal €215. Alles boven de €215 moet zij zelf betalen. Dit is haar eigen bijdrage. De verloskundige zorg krijgt zij voor 100% vergoed uit haar Basis Zeker pakket. \n</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text74641Font1\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text74641Font1\" style=\"position:relative;top:-5px;\" >Eva ontvangt minimaal 24 uur kraamzorg (tijdens de eerste 8 dagen na de bevalling). Het kraamzorgcentrum bekijkt hoeveel uur kraamzorg past bij uw situatie. Het Zinkraamzorg in Katwijk is een gecontracteerde zorgverlener. Hierdoor ontvangt zij de maximale vergoeding. Eva betaalt wel een eigen bijdrage van €4,40 per uur. </span ><span class=\"text74641Font3\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
+text74641.build()
+
+text58586 = new ObjText('text58586',null,702,205,566,41,1,22,null,'div',null,0 ,'body-bold')
 text58586.initSLine(0)
 text58586.initHasBullet(0)
 text58586.initRotateAngle(0,0,0)
@@ -726,13 +783,28 @@ text58586.initHasTextShadow(0)
 text58586.initHasBorder(0)
 text58586.initHasOutline(0)
 text58586.initHasMargin(0)
-text58586.addIe8Attr(702, 205, 566, 391, 0, 0)
+text58586.addIe8Attr(702, 205, 566, 41, 0, 0)
 text58586.addOpacity(100)
 text58586.arrCSSStyles = new Array();
 text58586.arrCSSStyles.push('span.text58586Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
-text58586.arrCSSStyles.push('span.text58586Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
-text58586.addInnerText('<div id=\"text58586\"><a id=\"text58586anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58586Font1\" style=\"position:relative;top:-2px;\" >3. Systeem\n</span ></p >\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58586Font2\" style=\"position:relative;top:-2px;\" >Je vindt de informatie op de vraag in Brein of op de website.</span ><span class=\"text58586Font1\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n</span ></p >\n</div>\n');
+text58586.addInnerText('<div id=\"text58586\" class=\"body-bold\"><a id=\"text58586anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58586Font1\" style=\"position:relative;top:-2px;\" >3. Systeem\n</span ></p >\n</div>\n');
 text58586.build()
+
+text75093 = new ObjText('text75093',null,702,246,566,61,1,23,null,'div',null,0 ,'body-txt')
+text75093.initSLine(1)
+text75093.initHasBullet(0)
+text75093.initRotateAngle(0,0,0)
+text75093.initHasOuterShadow(0)
+text75093.initHasTextShadow(0)
+text75093.initHasBorder(0)
+text75093.initHasOutline(0)
+text75093.initHasMargin(0)
+text75093.addIe8Attr(702, 246, 566, 61, 0, 0)
+text75093.addOpacity(100)
+text75093.arrCSSStyles = new Array();
+text75093.arrCSSStyles.push('span.text75093Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text75093.addInnerText('<div id=\"text75093\" class=\"body-txt\"><a id=\"text75093anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75093Font1\" style=\"position:relative;top:-5px;\" >Je vindt de informatie op de vraag in Brein of op de website.\n</span ></p >\n</div>\n');
+text75093.build()
 
 arObjs.push(shape31);
 arObjs.push(image30);
@@ -751,7 +823,11 @@ arObjs.push(shape58578);
 arObjs.push(image58580);
 arObjs.push(image58583);
 arObjs.push(text58585);
+arObjs.push(text74627);
+arObjs.push(text74634);
+arObjs.push(text74641);
 arObjs.push(text58586);
+arObjs.push(text75093);
 
 
 writeStyleSheets(arObjs);}
@@ -794,7 +870,11 @@ if( is.min ){
     appendElement(image58580, null, null);
     appendElement(image58583, null, null);
     appendElement(text58585, null, null);
+    appendElement(text74627, null, null);
+    appendElement(text74634, null, null);
+    appendElement(text74641, null, null);
     appendElement(text58586, null, null);
+    appendElement(text75093, null, null);
 }
 </script>
 

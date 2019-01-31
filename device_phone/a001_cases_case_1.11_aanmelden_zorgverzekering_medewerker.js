@@ -1,5 +1,5 @@
 PhoneResponsive={"785":{
-"pageLayer":{"w":785,"h":452,"bgColor":"#ffffff"}
+"pageLayer":{"w":785,"h":518,"bgColor":"#ffffff"}
 ,
 "":{"x":301,"y":148,"w":172,"h":115,"bOffBottom":0}
 ,
@@ -37,7 +37,7 @@ PhoneResponsive={"785":{
 ,
 "image58527":{"x":55,"y":110,"w":324,"h":305,"bOffBottom":0,"i":"images/1.11_medewerker.png"}
 ,
-"text58528":{"x":411,"y":122,"w":312,"h":330,"txtscale":100,"bOffBottom":0}
+"text58528":{"x":411,"y":122,"w":312,"h":396,"txtscale":100,"bOffBottom":0}
 ,
 "image58530":{"x":534,"y":375,"w":39,"h":26,"bOffBottom":0,"i":"images/button_systeem_zoe_disabled.png"}
 ,
@@ -59,7 +59,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,"preload":[]
 },
 "480":{
-"pageLayer":{"w":480,"h":763,"bgColor":"#ffffff"}
+"pageLayer":{"w":480,"h":789,"bgColor":"#ffffff"}
 ,
 "":{"x":184,"y":258,"w":105,"h":70,"bOffBottom":0}
 ,
@@ -97,7 +97,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image58527":{"x":33,"y":192,"w":198,"h":186,"bOffBottom":0,"i":"images/1.11_medewerker.png"}
 ,
-"text58528":{"x":251,"y":213,"w":191,"h":480,"txtscale":100,"bOffBottom":0}
+"text58528":{"x":251,"y":213,"w":191,"h":576,"txtscale":100,"bOffBottom":0}
 ,
 "image58530":{"x":327,"y":653,"w":24,"h":16,"bOffBottom":0,"i":"images/button_systeem_zoe_disabled.png"}
 ,

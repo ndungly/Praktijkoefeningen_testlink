@@ -41,9 +41,9 @@ DesktopResponsive={"1009":{
 ,
 "image55730":{"x":701,"y":190,"w":564,"h":530,"bOffBottom":0,"i":"images/1.12_klant.png"}
 ,
-"text55731":{"x":105,"y":245,"w":567,"h":67,"txtscale":100,"bOffBottom":0}
+"text55731":{"x":105,"y":245,"w":567,"h":87,"txtscale":100,"bOffBottom":0}
 ,
-"text64717":{"x":105,"y":360,"w":567,"h":439,"txtscale":100,"bOffBottom":0,"bltArr":null}
+"text64717":{"x":105,"y":360,"w":567,"h":459,"txtscale":100,"bOffBottom":0,"bltArr":null}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

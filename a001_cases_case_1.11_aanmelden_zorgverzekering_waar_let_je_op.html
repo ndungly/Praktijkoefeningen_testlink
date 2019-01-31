@@ -279,7 +279,6 @@ function init() {
 function loadActions(){
     if((window.bPageLoaded && window.bLoadedVariables && getDisplayWindow().pagePlayer &&
 	getDisplayWindow().pagePlayer.arLoadedPages && getDisplayWindow().pagePlayer.arLoadedPages.length == 1) || (window.bPageLoaded && window.bLoadedVariables && !isSinglePagePlayerAvail() )){
-      action66577(  );
       var valVarEntry_0055 = VarEntry_0055.getValue()
       if(valVarEntry_0055!='~~~null~~~')entry58493.objLyr.doc.forms["entry58493form"]["entry58493id"].value=valVarEntry_0055
       var valVarEntry_0056 = VarEntry_0056.getValue()
@@ -376,18 +375,6 @@ function trivResetEntry(entFld) {
 
 function OnDeviceRotate() {
 
-}
-
-function action66577(fn){
-    try{
-     document.getElementById("entry58493id").className = "entry1"
-document.getElementById("entry58496id").className = "entry1"
-document.getElementById("entry58502id").className = "entry1";
-     } catch (e) {
-     alert('[OnShowRunJS] ' + e);
-     }
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
 }
 
 function action12895(fn){
@@ -919,11 +906,11 @@ text58490.addOpacity(100)
 text58490.arrCSSStyles = new Array();
 text58490.arrCSSStyles.push('span.text58490Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
 text58490.arrCSSStyles.push('span.text58490Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
-text58490.addInnerText('<div id=\"text58490\" class=\"body-bold\"><a id=\"text58490anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58490Font1\" style=\"position:relative;top:-2px;\" >Hier zie je de punten waar je op moet letten. Noteer in de lege vlakken wat je opvalt. Noteer ook tops en tips.</span ><span class=\"text58490Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n</span ></p >\n</div>\n');
+text58490.addInnerText('<div id=\"text58490\" class=\"body-bold\"><a id=\"text58490anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58490Font1\" style=\"position:relative;top:-5px;\" >Hier zie je de punten waar je op moet letten. Noteer in de lege vlakken wat je opvalt. Noteer ook tops en tips.</span ><span class=\"text58490Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
 text58490.build()
 
 text58491 = new ObjText('text58491',null,110,338,535,56,1,21,null,'div',null,0 ,'body-bold')
-text58491.initSLine(0)
+text58491.initSLine(1)
 text58491.initHasBullet(0)
 text58491.initRotateAngle(0,0,0)
 text58491.initHasOuterShadow(0)
@@ -936,7 +923,7 @@ text58491.addOpacity(100)
 text58491.arrCSSStyles = new Array();
 text58491.arrCSSStyles.push('span.text58491Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
 text58491.arrCSSStyles.push('span.text58491Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text58491.addInnerText('<div id=\"text58491\" class=\"body-bold\"><a id=\"text58491anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58491Font1\"  >1. Hoe blijf je in verbinding met de klant?</span ><span class=\"text58491Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
+text58491.addInnerText('<div id=\"text58491\" class=\"body-bold\"><a id=\"text58491anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58491Font1\" style=\"position:relative;top:-2px;\" >1. Hoe blijf je in verbinding met de klant?</span ><span class=\"text58491Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n</span ></p >\n</div>\n');
 text58491.build()
 
 entry58493 = new ObjInline('entry58493',null,(is.ie?110:110),(is.ie?365:364),null,null,1,22, 0, null, null, 0)
@@ -958,7 +945,7 @@ text58494.addOpacity(100)
 text58494.arrCSSStyles = new Array();
 text58494.arrCSSStyles.push('span.text58494Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
 text58494.arrCSSStyles.push('span.text58494Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
-text58494.addInnerText('<div id=\"text58494\" class=\"body-bold\"><a id=\"text58494anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58494Font1\"  >2. Geef je het juiste antwoord op de vraag/vragen van de klant?</span ><span class=\"text58494Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
+text58494.addInnerText('<div id=\"text58494\" class=\"body-bold\"><a id=\"text58494anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58494Font1\" style=\"position:relative;top:-2px;\" >2. Geef je het juiste antwoord op de vraag/vragen van de klant?</span ><span class=\"text58494Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n</span ></p >\n</div>\n');
 text58494.build()
 
 entry58496 = new ObjInline('entry58496',null,(is.ie?110:110),(is.ie?543:542),null,null,1,24, 0, null, null, 0)
@@ -967,7 +954,7 @@ entry58496.arrCSSStyles.push('textarea.entry58496 { font-size:16px; font-family:
 entry58496.build()
 
 text58500 = new ObjText('text58500',null,702,339,571,56,1,25,null,'div',null,0 ,'body-bold')
-text58500.initSLine(0)
+text58500.initSLine(1)
 text58500.initHasBullet(0)
 text58500.initRotateAngle(0,0,0)
 text58500.initHasOuterShadow(0)
@@ -979,7 +966,7 @@ text58500.addIe8Attr(702, 339, 571, 56, 0, 0)
 text58500.addOpacity(100)
 text58500.arrCSSStyles = new Array();
 text58500.arrCSSStyles.push('span.text58500Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
-text58500.addInnerText('<div id=\"text58500\" class=\"body-bold\"><a id=\"text58500anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58500Font1\"  >3. Hoe gebruik je de systemen tijdens het gesprek?\n</span ></p >\n</div>\n');
+text58500.addInnerText('<div id=\"text58500\" class=\"body-bold\"><a id=\"text58500anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58500Font1\" style=\"position:relative;top:-2px;\" >3. Hoe gebruik je de systemen tijdens het gesprek?\n</span ></p >\n</div>\n');
 text58500.build()
 
 entry58502 = new ObjInline('entry58502',null,(is.ie?702:702),(is.ie?365:364),null,null,1,26, 0, null, null, 0)

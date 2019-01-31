@@ -172,7 +172,7 @@ function init() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(shape31,image30,image12850,image27429,image27404,shape25476,shape26120,text62238,text58300,shape58423,shape58425,shape58428,shape58431,shape58434,image58436,image58439,text58441,text58442))
+    PreloadResources(new Array(shape31,image30,image12850,image27429,image27404,shape25476,shape26120,text62238,text58300,shape58423,shape58425,shape58428,shape58431,shape58434,image58436,image58439,text58441,text74095,text74102,text74109,text74116,text58442,text74150,text74157,text74164))
     pageLayer.show(true);
     shape31.init()
     image30.init()
@@ -191,7 +191,14 @@ function init() {
     image58436.init()
     image58439.init()
     text58441.init()
+    text74095.init()
+    text74102.init()
+    text74109.init()
+    text74116.init()
     text58442.init()
+    text74150.init()
+    text74157.init()
+    text74164.init()
     shape31.activate()
     image30.activate()
     image12850.activate()
@@ -209,7 +216,14 @@ function init() {
     image58436.activate()
     image58439.activate()
     text58441.activate()
+    text74095.activate()
+    text74102.activate()
+    text74109.activate()
+    text74116.activate()
     text58442.activate()
+    text74150.activate()
+    text74157.activate()
+    text74164.activate()
     window.scrollTo(0,1);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
     if(titleManagerIndexWindow)titleManagerIndexWindow.scrollTo(0,1);
@@ -698,43 +712,155 @@ image58439.hasOnUp = true
 image58439.capture=4
 image58439.build()
 
-text58441 = new ObjText('text58441',null,106,205,534,463,1,18,null,'div',null,0 )
-text58441.initSLine(0)
-text58441.initHasBullet(1)
+text58441 = new ObjText('text58441',null,106,205,534,45,1,18,null,'div',null,0 ,'body-bold')
+text58441.initSLine(1)
+text58441.initHasBullet(0)
 text58441.initRotateAngle(0,0,0)
 text58441.initHasOuterShadow(0)
 text58441.initHasTextShadow(0)
 text58441.initHasBorder(0)
 text58441.initHasOutline(0)
 text58441.initHasMargin(0)
-text58441.addIe8Attr(106, 205, 534, 463, 0, 0)
+text58441.addIe8Attr(106, 205, 534, 45, 0, 0)
 text58441.addOpacity(100)
 text58441.arrCSSStyles = new Array();
-text58441.arrCSSStyles.push('span.text58441Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold; font-style:normal; text-decoration:normal;}');
-text58441.arrCSSStyles.push('li.text58441Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold; font-style:normal; text-decoration:normal;}');
-text58441.arrCSSStyles.push('span.text58441Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text58441.arrCSSStyles.push('li.text58441Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text58441.addInnerText('<div id=\"text58441\"><a id=\"text58441anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58441Font1\" style=\"position:relative;top:-2px;\" >1. Luisteren\n</span ></p >\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58441Font2\" style=\"position:relative;top:-2px;\" >Laat merken dat je luistert door bijvoorbeeld af en toe te hummen en de naam van de klant te noemen. Toon ook begrip: Ik kan me voorstellen dat u graag een ziekenhuis in de buurt hebt als het nodig is.\n</span ></p >\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58441Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58441Font1\" style=\"position:relative;top:-2px;\" >2. Doorvragen\n</span ></p >\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58441Font2\" style=\"position:relative;top:-2px;\" >Stel bijvoorbeeld deze vragen:\n</span ></p >\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58441Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n&nbsp;</span ></p >\n<ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text58441Font2\" data-bltIndnt=\"0\" style=\"line-height:1.409;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text58441CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text58441Font2\"  >Hoe bent u verzekerd? (Normaal zoek je dit zelf op in Mikado)\n</span ></li >\n<li  class=\"text58441Font2\" data-bltIndnt=\"0\" style=\"line-height:1.409;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text58441CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text58441Font2\"  >Waar woont u?\n</span ></li >\n<li  class=\"text58441Font2\" data-bltIndnt=\"0\" style=\"line-height:1.409;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text58441CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text58441Font2\"  >Wat is uw postcode?\n</span ></li >\n<li  class=\"text58441Font2\" data-bltIndnt=\"0\" style=\"line-height:1.409;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text58441CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text58441Font2\"  >Welk ziekenhuis is bij u in de buurt?\n</span ></li >\n</ul >\n</div>\n');
+text58441.arrCSSStyles.push('span.text58441Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
+text58441.arrCSSStyles.push('span.text58441Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text58441.addInnerText('<div id=\"text58441\" class=\"body-bold\"><a id=\"text58441anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58441Font1\" style=\"position:relative;top:-2px;\" >1. Luisteren</span ><span class=\"text58441Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n</span ></p >\n</div>\n');
 text58441.build()
 
-text58442 = new ObjText('text58442',null,702,205,566,481,1,19,null,'div',null,0 )
-text58442.initSLine(0)
-text58442.initHasBullet(1)
+text74095 = new ObjText('text74095',null,106,244,534,134,1,19,null,'div',null,0 ,'body-txt')
+text74095.initSLine(0)
+text74095.initHasBullet(0)
+text74095.initRotateAngle(0,0,0)
+text74095.initHasOuterShadow(0)
+text74095.initHasTextShadow(0)
+text74095.initHasBorder(0)
+text74095.initHasOutline(0)
+text74095.initHasMargin(0)
+text74095.addIe8Attr(106, 244, 534, 134, 0, 0)
+text74095.addOpacity(100)
+text74095.arrCSSStyles = new Array();
+text74095.arrCSSStyles.push('span.text74095Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text74095.arrCSSStyles.push('span.text74095Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text74095.addInnerText('<div id=\"text74095\" class=\"body-txt\"><a id=\"text74095anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text74095Font1\" style=\"position:relative;top:-5px;\" >Laat merken dat je luistert door bijvoorbeeld af en toe te hummen en de naam van de klant te noemen. Toon ook begrip: Ik kan me voorstellen dat u graag een ziekenhuis in de buurt hebt als het nodig is.</span ><span class=\"text74095Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
+text74095.build()
+
+text74102 = new ObjText('text74102',null,106,348,534,42,1,20,null,'div',null,0 ,'body-bold')
+text74102.initSLine(1)
+text74102.initHasBullet(0)
+text74102.initRotateAngle(0,0,0)
+text74102.initHasOuterShadow(0)
+text74102.initHasTextShadow(0)
+text74102.initHasBorder(0)
+text74102.initHasOutline(0)
+text74102.initHasMargin(0)
+text74102.addIe8Attr(106, 348, 534, 42, 0, 0)
+text74102.addOpacity(100)
+text74102.arrCSSStyles = new Array();
+text74102.arrCSSStyles.push('span.text74102Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
+text74102.addInnerText('<div id=\"text74102\" class=\"body-bold\"><a id=\"text74102anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text74102Font1\" style=\"position:relative;top:-2px;\" >2. Doorvragen\n</span ></p >\n</div>\n');
+text74102.build()
+
+text74109 = new ObjText('text74109',null,106,387,534,52,1,21,null,'div',null,0 ,'body-txt')
+text74109.initSLine(1)
+text74109.initHasBullet(0)
+text74109.initRotateAngle(0,0,0)
+text74109.initHasOuterShadow(0)
+text74109.initHasTextShadow(0)
+text74109.initHasBorder(0)
+text74109.initHasOutline(0)
+text74109.initHasMargin(0)
+text74109.addIe8Attr(106, 387, 534, 52, 0, 0)
+text74109.addOpacity(100)
+text74109.arrCSSStyles = new Array();
+text74109.arrCSSStyles.push('span.text74109Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text74109.arrCSSStyles.push('span.text74109Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text74109.addInnerText('<div id=\"text74109\" class=\"body-txt\"><a id=\"text74109anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text74109Font1\" style=\"position:relative;top:-5px;\" >Stel bijvoorbeeld deze vragen:</span ><span class=\"text74109Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
+text74109.build()
+
+text74116 = new ObjText('text74116',null,106,432,534,239,1,22,null,'div',null,0 ,'body-ul')
+text74116.initSLine(0)
+text74116.initHasBullet(1)
+text74116.initRotateAngle(0,0,0)
+text74116.initHasOuterShadow(0)
+text74116.initHasTextShadow(0)
+text74116.initHasBorder(0)
+text74116.initHasOutline(0)
+text74116.initHasMargin(0)
+text74116.addIe8Attr(106, 432, 534, 239, 0, 0)
+text74116.addOpacity(100)
+text74116.arrCSSStyles = new Array();
+text74116.arrCSSStyles.push('span.text74116Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text74116.arrCSSStyles.push('li.text74116Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text74116.addInnerText('<div id=\"text74116\" class=\"body-ul\"><a id=\"text74116anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text74116Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text74116CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text74116Font1\"  >Hoe bent u verzekerd? (Normaal zoek je dit zelf op in Mikado)\n</span ></li >\n<li  class=\"text74116Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text74116CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text74116Font1\"  >Waar woont u?\n</span ></li >\n<li  class=\"text74116Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text74116CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text74116Font1\"  >Wat is uw postcode?\n</span ></li >\n<li  class=\"text74116Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text74116CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text74116Font1\"  >Welk ziekenhuis is bij u in de buurt?\n</span ></li >\n</ul >\n</div>\n');
+text74116.build()
+
+text58442 = new ObjText('text58442',null,702,205,566,57,1,23,null,'div',null,0 ,'body-bold')
+text58442.initSLine(1)
+text58442.initHasBullet(0)
 text58442.initRotateAngle(0,0,0)
 text58442.initHasOuterShadow(0)
 text58442.initHasTextShadow(0)
 text58442.initHasBorder(0)
 text58442.initHasOutline(0)
 text58442.initHasMargin(0)
-text58442.addIe8Attr(702, 205, 566, 481, 0, 0)
+text58442.addIe8Attr(702, 205, 566, 57, 0, 0)
 text58442.addOpacity(100)
 text58442.arrCSSStyles = new Array();
-text58442.arrCSSStyles.push('span.text58442Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold; font-style:normal; text-decoration:normal;}');
-text58442.arrCSSStyles.push('li.text58442Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold; font-style:normal; text-decoration:normal;}');
-text58442.arrCSSStyles.push('span.text58442Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text58442.arrCSSStyles.push('li.text58442Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text58442.addInnerText('<div id=\"text58442\"><a id=\"text58442anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58442Font1\" style=\"position:relative;top:-2px;\" >3. Samenvatten\n</span ></p >\n<ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text58442Font2\" data-bltIndnt=\"0\" style=\"line-height:1.409;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text58442CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text58442Font2\"  >Vat de klantvraag samen om te toetsen of je de vraag goed begrepen hebt.\n</span ></li >\n<li  class=\"text58442Font2\" data-bltIndnt=\"0\" style=\"line-height:1.409;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text58442CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text58442Font2\"  >Vat jouw antwoord samen om te toetsen of de klant jouw goed begrepen heeft.\n</span ></li >\n</ul >\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58442Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58442Font1\" style=\"position:relative;top:-2px;\" >4. Systeem\n</span ></p >\n<ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text58442Font2\" data-bltIndnt=\"0\" style=\"line-height:1.409;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text58442CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text58442Font2\"  >Wijs Sarah erop dat ze op de Zilveren Kruis website de Zorgzoeker kan gebruiken.\n</span ></li >\n<li  class=\"text58442Font2\" data-bltIndnt=\"0\" style=\"line-height:1.409;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text58442CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text58442Font2\"  >Gebruik de Zorgzoeker op de website om alle gecontracteerde zorgverleners te vinden. Zilveren Kruis heeft afspraken gemaakt met het IJsselland ziekenhuis. Sarah kan hier met haar Basis Budget terecht. \n</span ></li >\n</ul >\n</div>\n');
+text58442.arrCSSStyles.push('span.text58442Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
+text58442.addInnerText('<div id=\"text58442\" class=\"body-bold\"><a id=\"text58442anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58442Font1\" style=\"position:relative;top:-2px;\" >3. Samenvatten\n</span ></p >\n</div>\n');
 text58442.build()
+
+text74150 = new ObjText('text74150',null,702,244,566,96,1,24,null,'div',null,0 ,'body-ul')
+text74150.initSLine(0)
+text74150.initHasBullet(1)
+text74150.initRotateAngle(0,0,0)
+text74150.initHasOuterShadow(0)
+text74150.initHasTextShadow(0)
+text74150.initHasBorder(0)
+text74150.initHasOutline(0)
+text74150.initHasMargin(0)
+text74150.addIe8Attr(702, 244, 566, 96, 0, 0)
+text74150.addOpacity(100)
+text74150.arrCSSStyles = new Array();
+text74150.arrCSSStyles.push('span.text74150Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text74150.arrCSSStyles.push('li.text74150Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text74150.addInnerText('<div id=\"text74150\" class=\"body-ul\"><a id=\"text74150anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text74150Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text74150CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text74150Font1\"  >Vat de klantvraag samen om te toetsen of je de vraag goed begrepen hebt.\n</span ></li >\n<li  class=\"text74150Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text74150CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text74150Font1\"  >Vat jouw antwoord samen om te toetsen of de klant jouw goed begrepen heeft.\n</span ></li >\n</ul >\n</div>\n');
+text74150.build()
+
+text74157 = new ObjText('text74157',null,702,331,566,50,1,25,null,'div',null,0 ,'body-bold')
+text74157.initSLine(1)
+text74157.initHasBullet(0)
+text74157.initRotateAngle(0,0,0)
+text74157.initHasOuterShadow(0)
+text74157.initHasTextShadow(0)
+text74157.initHasBorder(0)
+text74157.initHasOutline(0)
+text74157.initHasMargin(0)
+text74157.addIe8Attr(702, 331, 566, 50, 0, 0)
+text74157.addOpacity(100)
+text74157.arrCSSStyles = new Array();
+text74157.arrCSSStyles.push('span.text74157Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
+text74157.addInnerText('<div id=\"text74157\" class=\"body-bold\"><a id=\"text74157anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text74157Font1\" style=\"position:relative;top:-2px;\" >4. Systeem\n</span ></p >\n</div>\n');
+text74157.build()
+
+text74164 = new ObjText('text74164',null,702,374,566,315,1,26,null,'div',null,0 ,'body-ul')
+text74164.initSLine(0)
+text74164.initHasBullet(1)
+text74164.initRotateAngle(0,0,0)
+text74164.initHasOuterShadow(0)
+text74164.initHasTextShadow(0)
+text74164.initHasBorder(0)
+text74164.initHasOutline(0)
+text74164.initHasMargin(0)
+text74164.addIe8Attr(702, 374, 566, 315, 0, 0)
+text74164.addOpacity(100)
+text74164.arrCSSStyles = new Array();
+text74164.arrCSSStyles.push('span.text74164Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text74164.arrCSSStyles.push('li.text74164Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text74164.addInnerText('<div id=\"text74164\" class=\"body-ul\"><a id=\"text74164anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text74164Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text74164CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text74164Font1\"  >Wijs Sarah erop dat ze op de Zilveren Kruis website de Zorgzoeker kan gebruiken.\n</span ></li >\n<li  class=\"text74164Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text74164CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text74164Font1\"  >Gebruik de Zorgzoeker op de website om alle gecontracteerde zorgverleners te vinden. Zilveren Kruis heeft afspraken gemaakt met het IJsselland ziekenhuis. Sarah kan hier met haar Basis Budget terecht. \n</span ></li >\n</ul >\n</div>\n');
+text74164.build()
 
 arObjs.push(shape31);
 arObjs.push(image30);
@@ -753,7 +879,14 @@ arObjs.push(shape58434);
 arObjs.push(image58436);
 arObjs.push(image58439);
 arObjs.push(text58441);
+arObjs.push(text74095);
+arObjs.push(text74102);
+arObjs.push(text74109);
+arObjs.push(text74116);
 arObjs.push(text58442);
+arObjs.push(text74150);
+arObjs.push(text74157);
+arObjs.push(text74164);
 
 
 writeStyleSheets(arObjs);}
@@ -796,7 +929,14 @@ if( is.min ){
     appendElement(image58436, null, null);
     appendElement(image58439, null, null);
     appendElement(text58441, null, null);
+    appendElement(text74095, null, null);
+    appendElement(text74102, null, null);
+    appendElement(text74109, null, null);
+    appendElement(text74116, null, null);
     appendElement(text58442, null, null);
+    appendElement(text74150, null, null);
+    appendElement(text74157, null, null);
+    appendElement(text74164, null, null);
 }
 </script>
 

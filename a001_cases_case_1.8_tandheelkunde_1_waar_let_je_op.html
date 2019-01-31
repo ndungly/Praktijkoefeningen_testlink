@@ -300,7 +300,6 @@ function init() {
 function loadActions(){
     if((window.bPageLoaded && window.bLoadedVariables && getDisplayWindow().pagePlayer &&
 	getDisplayWindow().pagePlayer.arLoadedPages && getDisplayWindow().pagePlayer.arLoadedPages.length == 1) || (window.bPageLoaded && window.bLoadedVariables && !isSinglePagePlayerAvail() )){
-      action66508(  );
       var valVarEntry_0006 = VarEntry_0006.getValue()
       if(valVarEntry_0006!='~~~null~~~')entry46152.objLyr.doc.forms["entry46152form"]["entry46152id"].value=valVarEntry_0006
       var valVarEntry_0007 = VarEntry_0007.getValue()
@@ -405,20 +404,6 @@ function trivResetEntry(entFld) {
 
 function OnDeviceRotate() {
 
-}
-
-function action66508(fn){
-    try{
-     document.getElementById("entry46152id").className = "entry1"
-document.getElementById("entry46155id").className = "entry1"
-document.getElementById("entry46158id").className = "entry1"
-document.getElementById("entry46161id").className = "entry1"
-document.getElementById("entry46164id").className = "entry1";
-     } catch (e) {
-     alert('[OnShowRunJS] ' + e);
-     }
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
 }
 
 function action12895(fn){
@@ -968,11 +953,11 @@ text46149.addOpacity(100)
 text46149.arrCSSStyles = new Array();
 text46149.arrCSSStyles.push('span.text46149Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
 text46149.arrCSSStyles.push('span.text46149Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
-text46149.addInnerText('<div id=\"text46149\" class=\"body-bold\"><a id=\"text46149anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text46149Font1\" style=\"position:relative;top:-2px;\" >Hier zie je de punten waar je op moet letten. Noteer in de lege vlakken wat je opvalt. Noteer ook tips en tops.</span ><span class=\"text46149Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n</span ></p >\n</div>\n');
+text46149.addInnerText('<div id=\"text46149\" class=\"body-bold\"><a id=\"text46149anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text46149Font1\" style=\"position:relative;top:-5px;\" >Hier zie je de punten waar je op moet letten. Noteer in de lege vlakken wat je opvalt. Noteer ook tips en tops.</span ><span class=\"text46149Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
 text46149.build()
 
 text46150 = new ObjText('text46150',null,110,384,535,56,1,21,null,'div',null,0 ,'body-bold')
-text46150.initSLine(0)
+text46150.initSLine(1)
 text46150.initHasBullet(0)
 text46150.initRotateAngle(0,0,0)
 text46150.initHasOuterShadow(0)
@@ -985,7 +970,7 @@ text46150.addOpacity(100)
 text46150.arrCSSStyles = new Array();
 text46150.arrCSSStyles.push('span.text46150Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
 text46150.arrCSSStyles.push('span.text46150Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text46150.addInnerText('<div id=\"text46150\" class=\"body-bold\"><a id=\"text46150anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text46150Font1\"  >1. Luister je goed naar de behoefte en intentie van de klant?</span ><span class=\"text46150Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
+text46150.addInnerText('<div id=\"text46150\" class=\"body-bold\"><a id=\"text46150anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text46150Font1\" style=\"position:relative;top:-2px;\" >1. Luister je goed naar de behoefte en intentie van de klant?</span ><span class=\"text46150Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n</span ></p >\n</div>\n');
 text46150.build()
 
 entry46152 = new ObjInline('entry46152',null,(is.ie?110:110),(is.ie?410:409),null,null,1,22, 0, null, null, 0)
@@ -1007,7 +992,7 @@ text46153.addOpacity(100)
 text46153.arrCSSStyles = new Array();
 text46153.arrCSSStyles.push('span.text46153Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
 text46153.arrCSSStyles.push('span.text46153Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
-text46153.addInnerText('<div id=\"text46153\" class=\"body-bold\"><a id=\"text46153anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text46153Font1\"  >2. Welke vragen stel je om alle benodigde informatie te krijgen?</span ><span class=\"text46153Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
+text46153.addInnerText('<div id=\"text46153\" class=\"body-bold\"><a id=\"text46153anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text46153Font1\" style=\"position:relative;top:-2px;\" >2. Welke vragen stel je om alle benodigde informatie te krijgen?</span ><span class=\"text46153Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n</span ></p >\n</div>\n');
 text46153.build()
 
 entry46155 = new ObjInline('entry46155',null,(is.ie?110:110),(is.ie?581:580),null,null,1,24, 0, null, null, 0)
@@ -1016,7 +1001,7 @@ entry46155.arrCSSStyles.push('textarea.entry46155 { font-size:16px; font-family:
 entry46155.build()
 
 text46156 = new ObjText('text46156',null,702,210,566,56,1,25,null,'div',null,0 ,'body-bold')
-text46156.initSLine(0)
+text46156.initSLine(1)
 text46156.initHasBullet(0)
 text46156.initRotateAngle(0,0,0)
 text46156.initHasOuterShadow(0)
@@ -1029,7 +1014,7 @@ text46156.addOpacity(100)
 text46156.arrCSSStyles = new Array();
 text46156.arrCSSStyles.push('span.text46156Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
 text46156.arrCSSStyles.push('span.text46156Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
-text46156.addInnerText('<div id=\"text46156\" class=\"body-bold\"><a id=\"text46156anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text46156Font1\"  >3. Op welke momenten vat je het gesprek samen?</span ><span class=\"text46156Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
+text46156.addInnerText('<div id=\"text46156\" class=\"body-bold\"><a id=\"text46156anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text46156Font1\" style=\"position:relative;top:-2px;\" >3. Op welke momenten vat je het gesprek samen?</span ><span class=\"text46156Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n</span ></p >\n</div>\n');
 text46156.build()
 
 entry46158 = new ObjInline('entry46158',null,(is.ie?702:702),(is.ie?237:236),null,null,1,26, 0, null, null, 0)
@@ -1038,7 +1023,7 @@ entry46158.arrCSSStyles.push('textarea.entry46158 { font-size:16px; font-family:
 entry46158.build()
 
 text46159 = new ObjText('text46159',null,702,384,571,56,1,27,null,'div',null,0 ,'body-bold')
-text46159.initSLine(0)
+text46159.initSLine(1)
 text46159.initHasBullet(0)
 text46159.initRotateAngle(0,0,0)
 text46159.initHasOuterShadow(0)
@@ -1051,7 +1036,7 @@ text46159.addOpacity(100)
 text46159.arrCSSStyles = new Array();
 text46159.arrCSSStyles.push('span.text46159Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
 text46159.arrCSSStyles.push('span.text46159Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
-text46159.addInnerText('<div id=\"text46159\" class=\"body-bold\"><a id=\"text46159anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text46159Font1\"  >4. Geef je het juiste antwoord op de vraag/vragen van de klant?</span ><span class=\"text46159Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
+text46159.addInnerText('<div id=\"text46159\" class=\"body-bold\"><a id=\"text46159anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text46159Font1\" style=\"position:relative;top:-2px;\" >4. Geef je het juiste antwoord op de vraag/vragen van de klant?</span ><span class=\"text46159Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n</span ></p >\n</div>\n');
 text46159.build()
 
 entry46161 = new ObjInline('entry46161',null,(is.ie?702:702),(is.ie?410:409),null,null,1,28, 0, null, null, 0)
@@ -1060,7 +1045,7 @@ entry46161.arrCSSStyles.push('textarea.entry46161 { font-size:16px; font-family:
 entry46161.build()
 
 text46162 = new ObjText('text46162',null,702,552,566,56,1,29,null,'div',null,0 ,'body-bold')
-text46162.initSLine(0)
+text46162.initSLine(1)
 text46162.initHasBullet(0)
 text46162.initRotateAngle(0,0,0)
 text46162.initHasOuterShadow(0)
@@ -1073,7 +1058,7 @@ text46162.addOpacity(100)
 text46162.arrCSSStyles = new Array();
 text46162.arrCSSStyles.push('span.text46162Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
 text46162.arrCSSStyles.push('span.text46162Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
-text46162.addInnerText('<div id=\"text46162\" class=\"body-bold\"><a id=\"text46162anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text46162Font1\"  >5. Benoem je alle voorwaarden voor de vergoeding?</span ><span class=\"text46162Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
+text46162.addInnerText('<div id=\"text46162\" class=\"body-bold\"><a id=\"text46162anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text46162Font1\" style=\"position:relative;top:-2px;\" >5. Benoem je alle voorwaarden voor de vergoeding?</span ><span class=\"text46162Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n</span ></p >\n</div>\n');
 text46162.build()
 
 entry46164 = new ObjInline('entry46164',null,(is.ie?702:702),(is.ie?581:580),null,null,1,30, 0, null, null, 0)

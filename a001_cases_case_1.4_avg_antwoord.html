@@ -172,7 +172,7 @@ function init() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(shape31,image30,image12850,image27429,image27404,shape25476,shape26120,text61977,text57724,shape57847,shape57849,shape57852,shape57855,shape57858,image57860,image57863,text70192,text57866))
+    PreloadResources(new Array(shape31,image30,image12850,image27429,image27404,shape25476,shape26120,text61977,text57724,shape57847,shape57849,shape57852,shape57855,shape57858,image57860,image57863,text70192,text70554,text70561,text70568,text70575,text57866,text70634,text70641,text70648,text70655,text70662))
     pageLayer.show(true);
     shape31.init()
     image30.init()
@@ -191,7 +191,16 @@ function init() {
     image57860.init()
     image57863.init()
     text70192.init()
+    text70554.init()
+    text70561.init()
+    text70568.init()
+    text70575.init()
     text57866.init()
+    text70634.init()
+    text70641.init()
+    text70648.init()
+    text70655.init()
+    text70662.init()
     shape31.activate()
     image30.activate()
     image12850.activate()
@@ -209,7 +218,16 @@ function init() {
     image57860.activate()
     image57863.activate()
     text70192.activate()
+    text70554.activate()
+    text70561.activate()
+    text70568.activate()
+    text70575.activate()
     text57866.activate()
+    text70634.activate()
+    text70641.activate()
+    text70648.activate()
+    text70655.activate()
+    text70662.activate()
     window.scrollTo(0,1);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
     if(titleManagerIndexWindow)titleManagerIndexWindow.scrollTo(0,1);
@@ -698,43 +716,189 @@ image57863.hasOnUp = true
 image57863.capture=4
 image57863.build()
 
-text70192 = new ObjText('text70192',null,106,205,534,439,1,18,null,'div',null,0 )
+text70192 = new ObjText('text70192',null,106,205,534,47,1,18,null,'div',null,0 ,'body-bold')
 text70192.initSLine(0)
-text70192.initHasBullet(1)
+text70192.initHasBullet(0)
 text70192.initRotateAngle(0,0,0)
 text70192.initHasOuterShadow(0)
 text70192.initHasTextShadow(0)
 text70192.initHasBorder(0)
 text70192.initHasOutline(0)
 text70192.initHasMargin(0)
-text70192.addIe8Attr(106, 205, 534, 439, 0, 0)
+text70192.addIe8Attr(106, 205, 534, 47, 0, 0)
 text70192.addOpacity(100)
 text70192.arrCSSStyles = new Array();
-text70192.arrCSSStyles.push('span.text70192Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold; font-style:normal; text-decoration:normal;}');
-text70192.arrCSSStyles.push('li.text70192Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold; font-style:normal; text-decoration:normal;}');
-text70192.arrCSSStyles.push('span.text70192Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text70192.arrCSSStyles.push('li.text70192Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text70192.addInnerText('<div id=\"text70192\"><a id=\"text70192anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70192Font1\" style=\"position:relative;top:-5px;\" >1. Luisteren\n</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70192Font2\" style=\"position:relative;top:-5px;\" >Laat merken dat je luistert door bijvoorbeeld af en toe te hummen en de naam van de klant te noemen.\n</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70192Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70192Font1\" style=\"position:relative;top:-5px;\" >2. Doorvragen\n</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70192Font2\" style=\"position:relative;top:-5px;\" >Stel bijvoorbeeld deze vragen:\n</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70192Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n&nbsp;</span ></p >\n<ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text70192Font2\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text70192CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text70192Font2\"  >Wanneer ontving u de rekening?\n</span ></li >\n<li  class=\"text70192Font2\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text70192CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text70192Font2\"  >Hoe ontving u de rekening?\n</span ></li >\n<li  class=\"text70192Font2\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text70192CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text70192Font2\"  >Is uw dochter ook aanwezig?\n</span ></li >\n<li  class=\"text70192Font2\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text70192CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text70192Font2\"  >Bent u gemachtigd?\n</span ></li >\n</ul >\n</div>\n');
+text70192.arrCSSStyles.push('span.text70192Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
+text70192.addInnerText('<div id=\"text70192\" class=\"body-bold\"><a id=\"text70192anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70192Font1\" style=\"position:relative;top:-5px;\" >1. Luisteren\n</span ></p >\n</div>\n');
 text70192.build()
 
-text57866 = new ObjText('text57866',null,702,205,566,477,1,19,null,'div',null,0 )
-text57866.initSLine(0)
-text57866.initHasBullet(1)
+text70554 = new ObjText('text70554',null,106,244,534,115,1,19,null,'div',null,0 ,'body-txt')
+text70554.initSLine(0)
+text70554.initHasBullet(0)
+text70554.initRotateAngle(0,0,0)
+text70554.initHasOuterShadow(0)
+text70554.initHasTextShadow(0)
+text70554.initHasBorder(0)
+text70554.initHasOutline(0)
+text70554.initHasMargin(0)
+text70554.addIe8Attr(106, 244, 534, 115, 0, 0)
+text70554.addOpacity(100)
+text70554.arrCSSStyles = new Array();
+text70554.arrCSSStyles.push('span.text70554Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text70554.addInnerText('<div id=\"text70554\" class=\"body-txt\"><a id=\"text70554anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70554Font1\" style=\"position:relative;top:-5px;\" >Laat merken dat je luistert door bijvoorbeeld af en toe te hummen en de naam van de klant te noemen.\n</span ></p >\n</div>\n');
+text70554.build()
+
+text70561 = new ObjText('text70561',null,106,325,534,43,1,20,null,'div',null,0 ,'body-bold')
+text70561.initSLine(1)
+text70561.initHasBullet(0)
+text70561.initRotateAngle(0,0,0)
+text70561.initHasOuterShadow(0)
+text70561.initHasTextShadow(0)
+text70561.initHasBorder(0)
+text70561.initHasOutline(0)
+text70561.initHasMargin(0)
+text70561.addIe8Attr(106, 325, 534, 43, 0, 0)
+text70561.addOpacity(100)
+text70561.arrCSSStyles = new Array();
+text70561.arrCSSStyles.push('span.text70561Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
+text70561.arrCSSStyles.push('span.text70561Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text70561.addInnerText('<div id=\"text70561\" class=\"body-bold\"><a id=\"text70561anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70561Font1\" style=\"position:relative;top:-2px;\" >2. Doorvragen</span ><span class=\"text70561Font2\" style=\"background-color:transparentposition:relative;top:-2px;\" >\n</span ></p >\n</div>\n');
+text70561.build()
+
+text70568 = new ObjText('text70568',null,106,365,534,47,1,21,null,'div',null,0 ,'body-txt')
+text70568.initSLine(0)
+text70568.initHasBullet(0)
+text70568.initRotateAngle(0,0,0)
+text70568.initHasOuterShadow(0)
+text70568.initHasTextShadow(0)
+text70568.initHasBorder(0)
+text70568.initHasOutline(0)
+text70568.initHasMargin(0)
+text70568.addIe8Attr(106, 365, 534, 47, 0, 0)
+text70568.addOpacity(100)
+text70568.arrCSSStyles = new Array();
+text70568.arrCSSStyles.push('span.text70568Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text70568.addInnerText('<div id=\"text70568\" class=\"body-txt\"><a id=\"text70568anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.409\" style=\"margin-left:0px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70568Font1\" style=\"position:relative;top:-2px;\" >Stel bijvoorbeeld deze vragen:\n</span ></p >\n</div>\n');
+text70568.build()
+
+text70575 = new ObjText('text70575',null,106,412,534,208,1,22,null,'div',null,0 ,'body-ul')
+text70575.initSLine(0)
+text70575.initHasBullet(1)
+text70575.initRotateAngle(0,0,0)
+text70575.initHasOuterShadow(0)
+text70575.initHasTextShadow(0)
+text70575.initHasBorder(0)
+text70575.initHasOutline(0)
+text70575.initHasMargin(0)
+text70575.addIe8Attr(106, 412, 534, 208, 0, 0)
+text70575.addOpacity(100)
+text70575.arrCSSStyles = new Array();
+text70575.arrCSSStyles.push('span.text70575Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text70575.arrCSSStyles.push('li.text70575Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text70575.addInnerText('<div id=\"text70575\" class=\"body-ul\"><a id=\"text70575anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text70575Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text70575CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text70575Font1\"  >Wanneer ontving u de rekening?\n</span ></li >\n<li  class=\"text70575Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text70575CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text70575Font1\"  >Hoe ontving u de rekening?\n</span ></li >\n<li  class=\"text70575Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text70575CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text70575Font1\"  >Is uw dochter ook aanwezig?\n</span ></li >\n<li  class=\"text70575Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text70575CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text70575Font1\"  >Bent u gemachtigd?\n</span ></li >\n</ul >\n</div>\n');
+text70575.build()
+
+text57866 = new ObjText('text57866',null,702,205,566,51,1,23,null,'div',null,0 ,'body-bold')
+text57866.initSLine(1)
+text57866.initHasBullet(0)
 text57866.initRotateAngle(0,0,0)
 text57866.initHasOuterShadow(0)
 text57866.initHasTextShadow(0)
 text57866.initHasBorder(0)
 text57866.initHasOutline(0)
 text57866.initHasMargin(0)
-text57866.addIe8Attr(702, 205, 566, 477, 0, 0)
+text57866.addIe8Attr(702, 205, 566, 51, 0, 0)
 text57866.addOpacity(100)
 text57866.arrCSSStyles = new Array();
-text57866.arrCSSStyles.push('span.text57866Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold; font-style:normal; text-decoration:normal;}');
-text57866.arrCSSStyles.push('li.text57866Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold; font-style:normal; text-decoration:normal;}');
-text57866.arrCSSStyles.push('span.text57866Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text57866.arrCSSStyles.push('li.text57866Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text57866.addInnerText('<div id=\"text57866\"><a id=\"text57866anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57866Font1\" style=\"position:relative;top:-5px;\" >3. Samenvatten\n</span ></p >\n<ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text57866Font2\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text57866CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text57866Font2\"  >Vat de klantvraag samen om te toetsen of je de vraag goed begrepen hebt.\n</span ></li >\n<li  class=\"text57866Font2\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text57866CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text57866Font2\"  >Vat jouw antwoord samen om te toetsen of de klant jouw goed begrepen heeft.\n</span ></li >\n</ul >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57866Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57866Font1\" style=\"position:relative;top:-5px;\" >4. Klantgegevens controleren\n</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57866Font2\" style=\"position:relative;top:-5px;\" >Controleer de adresgegevens en de geboortedatum van Tanja. Ook controleer je de geboortedatum van Tatum. &nbsp;\n</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57866Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57866Font1\" style=\"position:relative;top:-5px;\" >5. Systemen\n</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57866Font2\" style=\"position:relative;top:-5px;\" >In Brein kan je de AVG beslisboom vinden. Je mag de gevraagde informatie niet geven zonder toestemming van Tatum. \n</span ></p >\n</div>\n');
+text57866.arrCSSStyles.push('span.text57866Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
+text57866.arrCSSStyles.push('span.text57866Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text57866.addInnerText('<div id=\"text57866\" class=\"body-bold\"><a id=\"text57866anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57866Font1\" style=\"position:relative;top:-5px;\" >3. Samenvatten</span ><span class=\"text57866Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
 text57866.build()
+
+text70634 = new ObjText('text70634',null,702,242,566,105,1,24,null,'div',null,0 ,'body-ul')
+text70634.initSLine(0)
+text70634.initHasBullet(1)
+text70634.initRotateAngle(0,0,0)
+text70634.initHasOuterShadow(0)
+text70634.initHasTextShadow(0)
+text70634.initHasBorder(0)
+text70634.initHasOutline(0)
+text70634.initHasMargin(0)
+text70634.addIe8Attr(702, 242, 566, 105, 0, 0)
+text70634.addOpacity(100)
+text70634.arrCSSStyles = new Array();
+text70634.arrCSSStyles.push('span.text70634Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text70634.arrCSSStyles.push('li.text70634Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text70634.arrCSSStyles.push('span.text70634Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text70634.arrCSSStyles.push('li.text70634Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text70634.addInnerText('<div id=\"text70634\" class=\"body-ul\"><a id=\"text70634anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text70634Font1\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text70634CircleBulletFont6.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text70634Font1\"  >Vat de klantvraag samen om te toetsen of je de vraag goed begrepen hebt.\n</span ></li >\n<li  class=\"text70634Font2\" data-bltIndnt=\"0\" style=\"line-height:1.691;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text70634CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text70634Font1\"  >Vat jouw antwoord samen om te toetsen of de klant jouw goed begrepen heeft.</span ><span class=\"text70634Font2\" style=\"background-color:transparent\" >\n</span ></li >\n</ul >\n</div>\n');
+text70634.build()
+
+text70641 = new ObjText('text70641',null,702,333,566,41,1,25,null,'div',null,0 ,'body-bold')
+text70641.initSLine(1)
+text70641.initHasBullet(0)
+text70641.initRotateAngle(0,0,0)
+text70641.initHasOuterShadow(0)
+text70641.initHasTextShadow(0)
+text70641.initHasBorder(0)
+text70641.initHasOutline(0)
+text70641.initHasMargin(0)
+text70641.addIe8Attr(702, 333, 566, 41, 0, 0)
+text70641.addOpacity(100)
+text70641.arrCSSStyles = new Array();
+text70641.arrCSSStyles.push('span.text70641Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
+text70641.arrCSSStyles.push('span.text70641Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text70641.addInnerText('<div id=\"text70641\" class=\"body-bold\"><a id=\"text70641anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70641Font1\" style=\"position:relative;top:-5px;\" >4. Klantgegevens controleren</span ><span class=\"text70641Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
+text70641.build()
+
+text70648 = new ObjText('text70648',null,702,466,566,44,1,26,null,'div',null,0 ,'body-bold')
+text70648.initSLine(1)
+text70648.initHasBullet(0)
+text70648.initRotateAngle(0,0,0)
+text70648.initHasOuterShadow(0)
+text70648.initHasTextShadow(0)
+text70648.initHasBorder(0)
+text70648.initHasOutline(0)
+text70648.initHasMargin(0)
+text70648.addIe8Attr(702, 466, 566, 44, 0, 0)
+text70648.addOpacity(100)
+text70648.arrCSSStyles = new Array();
+text70648.arrCSSStyles.push('span.text70648Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
+text70648.arrCSSStyles.push('span.text70648Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text70648.addInnerText('<div id=\"text70648\" class=\"body-bold\"><a id=\"text70648anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70648Font1\" style=\"position:relative;top:-5px;\" >5. Systemen</span ><span class=\"text70648Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
+text70648.build()
+
+text70655 = new ObjText('text70655',null,702,510,566,144,1,27,null,'div',null,0 ,'body-txt')
+text70655.initSLine(0)
+text70655.initHasBullet(0)
+text70655.initRotateAngle(0,0,0)
+text70655.initHasOuterShadow(0)
+text70655.initHasTextShadow(0)
+text70655.initHasBorder(0)
+text70655.initHasOutline(0)
+text70655.initHasMargin(0)
+text70655.addIe8Attr(702, 510, 566, 144, 0, 0)
+text70655.addOpacity(100)
+text70655.arrCSSStyles = new Array();
+text70655.arrCSSStyles.push('span.text70655Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text70655.addInnerText('<div id=\"text70655\" class=\"body-txt\"><a id=\"text70655anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70655Font1\" style=\"position:relative;top:-5px;\" >In Brein kan je de AVG beslisboom vinden. Je mag de gevraagde informatie niet geven zonder toestemming van Tatum. \n</span ></p >\n</div>\n');
+text70655.build()
+
+text70662 = new ObjText('text70662',null,702,373,566,96,1,28,null,'div',null,0 ,'body-txt')
+text70662.initSLine(0)
+text70662.initHasBullet(0)
+text70662.initRotateAngle(0,0,0)
+text70662.initHasOuterShadow(0)
+text70662.initHasTextShadow(0)
+text70662.initHasBorder(0)
+text70662.initHasOutline(0)
+text70662.initHasMargin(0)
+text70662.addIe8Attr(702, 373, 566, 96, 0, 0)
+text70662.addOpacity(100)
+text70662.arrCSSStyles = new Array();
+text70662.arrCSSStyles.push('span.text70662Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text70662.addInnerText('<div id=\"text70662\" class=\"body-txt\"><a id=\"text70662anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70662Font1\" style=\"position:relative;top:-5px;\" >Controleer de adresgegevens en de geboortedatum van Tanja. Ook controleer je de geboortedatum van Tatum. &nbsp;\n</span ></p >\n</div>\n');
+text70662.build()
 
 arObjs.push(shape31);
 arObjs.push(image30);
@@ -753,7 +917,16 @@ arObjs.push(shape57858);
 arObjs.push(image57860);
 arObjs.push(image57863);
 arObjs.push(text70192);
+arObjs.push(text70554);
+arObjs.push(text70561);
+arObjs.push(text70568);
+arObjs.push(text70575);
 arObjs.push(text57866);
+arObjs.push(text70634);
+arObjs.push(text70641);
+arObjs.push(text70648);
+arObjs.push(text70655);
+arObjs.push(text70662);
 
 
 writeStyleSheets(arObjs);}
@@ -796,7 +969,16 @@ if( is.min ){
     appendElement(image57860, null, null);
     appendElement(image57863, null, null);
     appendElement(text70192, null, null);
+    appendElement(text70554, null, null);
+    appendElement(text70561, null, null);
+    appendElement(text70568, null, null);
+    appendElement(text70575, null, null);
     appendElement(text57866, null, null);
+    appendElement(text70634, null, null);
+    appendElement(text70641, null, null);
+    appendElement(text70648, null, null);
+    appendElement(text70655, null, null);
+    appendElement(text70662, null, null);
 }
 </script>
 

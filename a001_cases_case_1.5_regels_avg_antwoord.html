@@ -172,7 +172,7 @@ function init() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(shape31,image30,image12850,image27429,image27404,shape25476,shape26120,text62002,text57868,shape57991,shape57993,shape57996,shape57999,shape58002,image58004,image58007,text58009))
+    PreloadResources(new Array(shape31,image30,image12850,image27429,image27404,shape25476,shape26120,text62002,text57868,shape57991,shape57993,shape57996,shape57999,shape58002,image58004,image58007,text58009,text71061,text71068,text71075,text71082,text71089))
     pageLayer.show(true);
     shape31.init()
     image30.init()
@@ -191,6 +191,11 @@ function init() {
     image58004.init()
     image58007.init()
     text58009.init()
+    text71061.init()
+    text71068.init()
+    text71075.init()
+    text71082.init()
+    text71089.init()
     shape31.activate()
     image30.activate()
     image12850.activate()
@@ -208,6 +213,11 @@ function init() {
     image58004.activate()
     image58007.activate()
     text58009.activate()
+    text71061.activate()
+    text71068.activate()
+    text71075.activate()
+    text71082.activate()
+    text71089.activate()
     window.scrollTo(0,1);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
     if(titleManagerIndexWindow)titleManagerIndexWindow.scrollTo(0,1);
@@ -696,8 +706,8 @@ image58007.hasOnUp = true
 image58007.capture=4
 image58007.build()
 
-text58009 = new ObjText('text58009',null,106,205,534,424,1,18,null,'div',null,0 )
-text58009.initSLine(0)
+text58009 = new ObjText('text58009',null,106,205,534,37,1,18,null,'div',null,0 ,'body-bold')
+text58009.initSLine(1)
 text58009.initHasBullet(0)
 text58009.initRotateAngle(0,0,0)
 text58009.initHasOuterShadow(0)
@@ -705,13 +715,99 @@ text58009.initHasTextShadow(0)
 text58009.initHasBorder(0)
 text58009.initHasOutline(0)
 text58009.initHasMargin(0)
-text58009.addIe8Attr(106, 205, 534, 424, 0, 0)
+text58009.addIe8Attr(106, 205, 534, 37, 0, 0)
 text58009.addOpacity(100)
 text58009.arrCSSStyles = new Array();
 text58009.arrCSSStyles.push('span.text58009Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
 text58009.arrCSSStyles.push('span.text58009Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
-text58009.addInnerText('<div id=\"text58009\"><a id=\"text58009anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58009Font1\" style=\"position:relative;top:-5px;\" >1. Klantgegevens controleren\n</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58009Font2\" style=\"position:relative;top:-5px;\" >Controleer de adresgegevens en de geboortedatum van Linda. Ook controleer je de geboortedatum van Robert.\n</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58009Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58009Font1\" style=\"position:relative;top:-5px;\" >2. Systeem\n</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58009Font2\" style=\"position:relative;top:-5px;\" >In Brein kan je de AVG beslisboom vinden.</span ><span class=\"text58009Font1\" style=\"position:relative;top:-5px;\" > \n</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58009Font1\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58009Font1\" style=\"position:relative;top:-5px;\" >3. Samenvatten\n</span ></p >\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58009Font2\" style=\"position:relative;top:-5px;\" >Volgens de AVG beslisboom mag je de tandartsverzekering van Robert aanpassen. </span ><span class=\"text58009Font1\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
+text58009.addInnerText('<div id=\"text58009\" class=\"body-bold\"><a id=\"text58009anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text58009Font1\" style=\"position:relative;top:-5px;\" >1. Klantgegevens controleren</span ><span class=\"text58009Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
 text58009.build()
+
+text71061 = new ObjText('text71061',null,106,241,534,95,1,19,null,'div',null,0 ,'body-txt')
+text71061.initSLine(0)
+text71061.initHasBullet(0)
+text71061.initRotateAngle(0,0,0)
+text71061.initHasOuterShadow(0)
+text71061.initHasTextShadow(0)
+text71061.initHasBorder(0)
+text71061.initHasOutline(0)
+text71061.initHasMargin(0)
+text71061.addIe8Attr(106, 241, 534, 95, 0, 0)
+text71061.addOpacity(100)
+text71061.arrCSSStyles = new Array();
+text71061.arrCSSStyles.push('span.text71061Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text71061.arrCSSStyles.push('span.text71061Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text71061.addInnerText('<div id=\"text71061\" class=\"body-txt\"><a id=\"text71061anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71061Font1\" style=\"position:relative;top:-5px;\" >Controleer de adresgegevens en de geboortedatum van Linda. Ook controleer je de geboortedatum van Robert.</span ><span class=\"text71061Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
+text71061.build()
+
+text71068 = new ObjText('text71068',null,106,329,534,45,1,20,null,'div',null,0 ,'body-bold')
+text71068.initSLine(1)
+text71068.initHasBullet(0)
+text71068.initRotateAngle(0,0,0)
+text71068.initHasOuterShadow(0)
+text71068.initHasTextShadow(0)
+text71068.initHasBorder(0)
+text71068.initHasOutline(0)
+text71068.initHasMargin(0)
+text71068.addIe8Attr(106, 329, 534, 45, 0, 0)
+text71068.addOpacity(100)
+text71068.arrCSSStyles = new Array();
+text71068.arrCSSStyles.push('span.text71068Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
+text71068.arrCSSStyles.push('span.text71068Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text71068.addInnerText('<div id=\"text71068\" class=\"body-bold\"><a id=\"text71068anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71068Font1\" style=\"position:relative;top:-5px;\" >2. Systeem</span ><span class=\"text71068Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
+text71068.build()
+
+text71075 = new ObjText('text71075',null,106,366,534,56,1,21,null,'div',null,0 ,'body-txt')
+text71075.initSLine(1)
+text71075.initHasBullet(0)
+text71075.initRotateAngle(0,0,0)
+text71075.initHasOuterShadow(0)
+text71075.initHasTextShadow(0)
+text71075.initHasBorder(0)
+text71075.initHasOutline(0)
+text71075.initHasMargin(0)
+text71075.addIe8Attr(106, 366, 534, 56, 0, 0)
+text71075.addOpacity(100)
+text71075.arrCSSStyles = new Array();
+text71075.arrCSSStyles.push('span.text71075Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text71075.arrCSSStyles.push('span.text71075Font2 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
+text71075.arrCSSStyles.push('span.text71075Font3 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text71075.addInnerText('<div id=\"text71075\" class=\"body-txt\"><a id=\"text71075anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71075Font1\" style=\"position:relative;top:-5px;\" >In Brein kan je de AVG beslisboom vinden.</span ><span class=\"text71075Font2\" style=\"position:relative;top:-5px;\" > </span ><span class=\"text71075Font3\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
+text71075.build()
+
+text71082 = new ObjText('text71082',null,106,419,534,46,1,22,null,'div',null,0 ,'body-bold')
+text71082.initSLine(1)
+text71082.initHasBullet(0)
+text71082.initRotateAngle(0,0,0)
+text71082.initHasOuterShadow(0)
+text71082.initHasTextShadow(0)
+text71082.initHasBorder(0)
+text71082.initHasOutline(0)
+text71082.initHasMargin(0)
+text71082.addIe8Attr(106, 419, 534, 46, 0, 0)
+text71082.addOpacity(100)
+text71082.arrCSSStyles = new Array();
+text71082.arrCSSStyles.push('span.text71082Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857; font-weight:bold;}');
+text71082.arrCSSStyles.push('span.text71082Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text71082.addInnerText('<div id=\"text71082\" class=\"body-bold\"><a id=\"text71082anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71082Font1\" style=\"position:relative;top:-5px;\" >3. Samenvatten</span ><span class=\"text71082Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
+text71082.build()
+
+text71089 = new ObjText('text71089',null,106,460,534,136,1,23,null,'div',null,0 ,'body-txt')
+text71089.initSLine(0)
+text71089.initHasBullet(0)
+text71089.initRotateAngle(0,0,0)
+text71089.initHasOuterShadow(0)
+text71089.initHasTextShadow(0)
+text71089.initHasBorder(0)
+text71089.initHasOutline(0)
+text71089.initHasMargin(0)
+text71089.addIe8Attr(106, 460, 534, 136, 0, 0)
+text71089.addOpacity(100)
+text71089.arrCSSStyles = new Array();
+text71089.arrCSSStyles.push('span.text71089Font1 { font-size:16px; font-family:"Titillium Web"; color:#002857;}');
+text71089.arrCSSStyles.push('span.text71089Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text71089.addInnerText('<div id=\"text71089\" class=\"body-txt\"><a id=\"text71089anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<p  legLH=\"1.691\" style=\"margin-left:0px;text-indent:0px;line-height:1.620;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71089Font1\" style=\"position:relative;top:-5px;\" >Volgens de AVG beslisboom mag je de tandartsverzekering van Robert aanpassen. </span ><span class=\"text71089Font2\" style=\"background-color:transparentposition:relative;top:-5px;\" >\n</span ></p >\n</div>\n');
+text71089.build()
 
 arObjs.push(shape31);
 arObjs.push(image30);
@@ -730,6 +826,11 @@ arObjs.push(shape58002);
 arObjs.push(image58004);
 arObjs.push(image58007);
 arObjs.push(text58009);
+arObjs.push(text71061);
+arObjs.push(text71068);
+arObjs.push(text71075);
+arObjs.push(text71082);
+arObjs.push(text71089);
 
 
 writeStyleSheets(arObjs);}
@@ -772,6 +873,11 @@ if( is.min ){
     appendElement(image58004, null, null);
     appendElement(image58007, null, null);
     appendElement(text58009, null, null);
+    appendElement(text71061, null, null);
+    appendElement(text71068, null, null);
+    appendElement(text71075, null, null);
+    appendElement(text71082, null, null);
+    appendElement(text71089, null, null);
 }
 </script>
 
