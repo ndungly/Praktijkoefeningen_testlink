@@ -1,5 +1,5 @@
 PhoneResponsive={"785":{
-"pageLayer":{"w":785,"h":568,"bgColor":"#ffffff"}
+"pageLayer":{"w":785,"h":658,"bgColor":"#ffffff"}
 ,
 "":{"x":301,"y":148,"w":172,"h":115,"bOffBottom":0}
 ,
@@ -35,9 +35,9 @@ PhoneResponsive={"785":{
 ,
 "image57863":{"x":750,"y":253,"w":20,"h":20,"bOffBottom":0,"i":"images/button_volgende.png"}
 ,
-"text57865":{"x":61,"y":118,"w":307,"h":402,"txtscale":100,"bOffBottom":0,"bltArr":null}
+"text70192":{"x":61,"y":118,"w":307,"h":474,"txtscale":100,"bOffBottom":0,"bltArr":null}
 ,
-"text57866":{"x":403,"y":118,"w":325,"h":450,"txtscale":100,"bOffBottom":0,"bltArr":null}
+"text57866":{"x":403,"y":118,"w":325,"h":540,"txtscale":100,"bOffBottom":0,"bltArr":null}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -47,7 +47,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,"preload":[]
 },
 "480":{
-"pageLayer":{"w":480,"h":895,"bgColor":"#ffffff"}
+"pageLayer":{"w":480,"h":1033,"bgColor":"#ffffff"}
 ,
 "":{"x":184,"y":258,"w":105,"h":70,"bOffBottom":0}
 ,
@@ -83,9 +83,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image57863":{"x":459,"y":440,"w":12,"h":12,"bOffBottom":0,"i":"images/button_volgende.png"}
 ,
-"text57865":{"x":37,"y":205,"w":188,"h":552,"txtscale":100,"bOffBottom":0,"bltArr":null}
+"text70192":{"x":37,"y":205,"w":188,"h":654,"txtscale":100,"bOffBottom":0,"bltArr":null}
 ,
-"text57866":{"x":247,"y":205,"w":199,"h":690,"txtscale":100,"bOffBottom":0,"bltArr":null}
+"text57866":{"x":247,"y":205,"w":199,"h":828,"txtscale":100,"bOffBottom":0,"bltArr":null}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

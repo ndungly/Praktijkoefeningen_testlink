@@ -35,14 +35,14 @@ DesktopResponsive={"1009":{
 ,
 "image57863":{"x":1305,"y":440,"w":34,"h":34,"bOffBottom":0,"i":"images/button_volgende.png"}
 ,
-"text57865":{"x":106,"y":205,"w":534,"h":404,"txtscale":100,"bOffBottom":0,"bltArr":null}
+"text70192":{"x":106,"y":205,"w":534,"h":439,"txtscale":100,"bOffBottom":0,"bltArr":null}
 ,
-"text57866":{"x":702,"y":205,"w":566,"h":391,"txtscale":100,"bOffBottom":0,"bltArr":null}
+"text57866":{"x":702,"y":205,"w":566,"h":477,"txtscale":100,"bOffBottom":0,"bltArr":null}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
 }
 ,
 "RCDResultResize":function(){}
-,"preload":['images/button_sluit_module.png','images/button_sluit_module_hover.png','images/button_video.png','images/button_video_hover.png','images/button_volgende.png','images/button_vorige.png','images/button_menu.png','images/button_menu_hover.png','images/zk_online_rgb.png','images/shape31.png','images/shape31.png','images/shape31.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape57847.png','images/shape57849.png','images/shape57852.png','images/shape57855.png','images/shape57858.png','images/text57865CircleBulletFont7.png','images/text57866CircleBulletFont7.png']
+,"preload":['images/button_sluit_module.png','images/button_sluit_module_hover.png','images/button_video.png','images/button_video_hover.png','images/button_volgende.png','images/button_vorige.png','images/button_menu.png','images/button_menu_hover.png','images/zk_online_rgb.png','images/shape31.png','images/shape31.png','images/shape31.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape31.png','images/shape26120.png','images/shape57847.png','images/shape57849.png','images/shape57852.png','images/shape57855.png','images/shape57858.png','images/text70192CircleBulletFont7.png','images/text57866CircleBulletFont7.png']
 }}

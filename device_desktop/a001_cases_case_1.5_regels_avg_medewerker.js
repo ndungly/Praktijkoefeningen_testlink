@@ -37,7 +37,7 @@ DesktopResponsive={"1009":{
 ,
 "image57951":{"x":95,"y":192,"w":564,"h":530,"bOffBottom":0,"i":"images/1.5_medewerker.png"}
 ,
-"text57952":{"x":711,"y":213,"w":546,"h":201,"txtscale":100,"bOffBottom":0}
+"text57952":{"x":711,"y":213,"w":546,"h":217,"txtscale":100,"bOffBottom":0}
 ,
 "image57954":{"x":930,"y":653,"w":68,"h":45,"bOffBottom":0,"i":"images/button_systeem_zoe_disabled.png"}
 ,

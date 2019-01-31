@@ -41,7 +41,7 @@ DesktopResponsive={"1009":{
 ,
 "image57987":{"x":701,"y":190,"w":564,"h":530,"bOffBottom":0,"i":"images/1.5_klant.png"}
 ,
-"text57988":{"x":105,"y":245,"w":560,"h":62,"txtscale":100,"bOffBottom":0}
+"text57988":{"x":105,"y":245,"w":560,"h":78,"txtscale":100,"bOffBottom":0}
 ,
 "text64257":{"x":105,"y":360,"w":560,"h":267,"txtscale":100,"bOffBottom":0,"bltArr":null}
 ,

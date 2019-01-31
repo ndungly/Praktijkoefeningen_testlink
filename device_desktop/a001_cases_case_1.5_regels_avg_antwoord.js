@@ -35,7 +35,7 @@ DesktopResponsive={"1009":{
 ,
 "image58007":{"x":1305,"y":440,"w":34,"h":34,"bOffBottom":0,"i":"images/button_volgende.png"}
 ,
-"text58009":{"x":106,"y":205,"w":534,"h":404,"txtscale":100,"bOffBottom":0}
+"text58009":{"x":106,"y":205,"w":534,"h":424,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

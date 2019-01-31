@@ -1,5 +1,5 @@
 PhoneResponsive={"785":{
-"pageLayer":{"w":785,"h":450,"bgColor":"#ffffff"}
+"pageLayer":{"w":785,"h":464,"bgColor":"#ffffff"}
 ,
 "":{"x":301,"y":148,"w":172,"h":115,"bOffBottom":0}
 ,
@@ -37,7 +37,7 @@ PhoneResponsive={"785":{
 ,
 "image57663":{"x":55,"y":110,"w":324,"h":305,"bOffBottom":0,"i":"images/1.3_medewerker.png"}
 ,
-"text57664":{"x":409,"y":122,"w":305,"h":276,"txtscale":100,"bOffBottom":0}
+"text57664":{"x":409,"y":122,"w":305,"h":342,"txtscale":100,"bOffBottom":0}
 ,
 "image57666":{"x":534,"y":375,"w":39,"h":26,"bOffBottom":0,"i":"images/button_systeem_zoe_disabled.png"}
 ,
@@ -97,7 +97,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image57663":{"x":33,"y":192,"w":198,"h":186,"bOffBottom":0,"i":"images/1.3_medewerker.png"}
 ,
-"text57664":{"x":250,"y":213,"w":187,"h":366,"txtscale":100,"bOffBottom":0}
+"text57664":{"x":250,"y":213,"w":187,"h":450,"txtscale":100,"bOffBottom":0}
 ,
 "image57666":{"x":327,"y":653,"w":24,"h":16,"bOffBottom":0,"i":"images/button_systeem_zoe_disabled.png"}
 ,

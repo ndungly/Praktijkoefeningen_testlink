@@ -1,5 +1,5 @@
 PhoneResponsive={"785":{
-"pageLayer":{"w":785,"h":490,"bgColor":"#ffffff"}
+"pageLayer":{"w":785,"h":577,"bgColor":"#ffffff"}
 ,
 "":{"x":301,"y":148,"w":172,"h":115,"bOffBottom":0}
 ,
@@ -35,7 +35,7 @@ PhoneResponsive={"785":{
 ,
 "image58007":{"x":750,"y":253,"w":20,"h":20,"bOffBottom":0,"i":"images/button_volgende.png"}
 ,
-"text58009":{"x":61,"y":118,"w":307,"h":372,"txtscale":100,"bOffBottom":0}
+"text58009":{"x":61,"y":118,"w":307,"h":459,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -45,7 +45,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,"preload":[]
 },
 "480":{
-"pageLayer":{"w":480,"h":763,"bgColor":"#ffffff"}
+"pageLayer":{"w":480,"h":880,"bgColor":"#ffffff"}
 ,
 "":{"x":184,"y":258,"w":105,"h":70,"bOffBottom":0}
 ,
@@ -81,7 +81,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image58007":{"x":459,"y":440,"w":12,"h":12,"bOffBottom":0,"i":"images/button_volgende.png"}
 ,
-"text58009":{"x":37,"y":205,"w":188,"h":552,"txtscale":100,"bOffBottom":0}
+"text58009":{"x":37,"y":205,"w":188,"h":675,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

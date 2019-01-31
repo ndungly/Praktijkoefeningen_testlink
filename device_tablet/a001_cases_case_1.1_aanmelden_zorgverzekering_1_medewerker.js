@@ -37,7 +37,7 @@ TabletResponsive={"1009":{
 ,
 "image38178":{"x":70,"y":142,"w":417,"h":391,"bOffBottom":0,"i":"images/1.1_medewerker.png"}
 ,
-"text38256":{"x":524,"y":157,"w":398,"h":180,"txtscale":100,"bOffBottom":0}
+"text38256":{"x":524,"y":157,"w":398,"h":216,"txtscale":100,"bOffBottom":0}
 ,
 "image46356":{"x":687,"y":482,"w":50,"h":33,"bOffBottom":0,"i":"images/button_systeem_zoe_disabled.png"}
 ,
@@ -97,7 +97,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image38178":{"x":55,"y":192,"w":324,"h":305,"bOffBottom":0,"i":"images/1.1_medewerker.png"}
 ,
-"text38256":{"x":407,"y":213,"w":310,"h":210,"txtscale":100,"bOffBottom":0}
+"text38256":{"x":407,"y":213,"w":310,"h":252,"txtscale":100,"bOffBottom":0}
 ,
 "image46356":{"x":534,"y":653,"w":39,"h":26,"bOffBottom":0,"i":"images/button_systeem_zoe_disabled.png"}
 ,

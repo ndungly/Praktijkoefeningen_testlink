@@ -37,7 +37,7 @@ PhoneResponsive={"785":{
 ,
 "image38178":{"x":55,"y":110,"w":324,"h":305,"bOffBottom":0,"i":"images/1.1_medewerker.png"}
 ,
-"text38256":{"x":407,"y":122,"w":310,"h":210,"txtscale":100,"bOffBottom":0}
+"text38256":{"x":407,"y":122,"w":310,"h":252,"txtscale":100,"bOffBottom":0}
 ,
 "image46356":{"x":534,"y":375,"w":39,"h":26,"bOffBottom":0,"i":"images/button_systeem_zoe_disabled.png"}
 ,
@@ -97,7 +97,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image38178":{"x":33,"y":192,"w":198,"h":186,"bOffBottom":0,"i":"images/1.1_medewerker.png"}
 ,
-"text38256":{"x":249,"y":213,"w":189,"h":330,"txtscale":100,"bOffBottom":0}
+"text38256":{"x":249,"y":213,"w":189,"h":396,"txtscale":100,"bOffBottom":0}
 ,
 "image46356":{"x":327,"y":653,"w":24,"h":16,"bOffBottom":0,"i":"images/button_systeem_zoe_disabled.png"}
 ,

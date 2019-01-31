@@ -43,7 +43,7 @@ DesktopResponsive={"1009":{
 ,
 "text57700":{"x":105,"y":245,"w":560,"h":93,"txtscale":100,"bOffBottom":0}
 ,
-"text64145":{"x":105,"y":360,"w":560,"h":167,"txtscale":100,"bOffBottom":0,"bltArr":null}
+"text64145":{"x":105,"y":360,"w":560,"h":181,"txtscale":100,"bOffBottom":0,"bltArr":null}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
